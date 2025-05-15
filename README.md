@@ -26,7 +26,7 @@
 
 ## 📸 Screenshots
 
-> *Showcase your modlist’s strongest visuals here*
+> *lINK COMING SOON*
 
 ---
 
