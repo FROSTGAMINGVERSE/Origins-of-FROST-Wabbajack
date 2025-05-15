@@ -66,8 +66,8 @@ A step-by-step installation guide covering:
 ## 🐛 Common Issues
 
 - Do **not** launch the game via Steam — always use MO2
-- Initial shader compilation may cause minor stutters (normal)
-- NPCs may occasionally clip due to advanced animations
+- 
+- 
 
 ---
 
@@ -90,6 +90,8 @@ A step-by-step installation guide covering:
 > Always check the [Changelog & Save Compatibility Sheet](https://docs.google.com/spreadsheets/d/1sccy64Za7BICVncwxTsg3Fj3W8kegzsFk1VG92n6ato/edit?usp=sharing) before updating.
 
 **Current Load Order (v0.6.3):** [Load Order Document](#)
+
+CHANGELOG COMING SOON
 
 ---
 
