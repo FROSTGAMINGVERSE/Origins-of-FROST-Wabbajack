@@ -87,11 +87,9 @@ A step-by-step installation guide covering:
 ## 🔄 Updating the List
 
 > ⚠️ **Note:** Not all updates are save-compatible.  
-> Always check the [Changelog & Save Compatibility Sheet](https://docs.google.com/spreadsheets/d/1sccy64Za7BICVncwxTsg3Fj3W8kegzsFk1VG92n6ato/edit?usp=sharing) before updating.
+> Always check the [Changelog & Save Compatibility Sheet]([https://docs.google.com/spreadsheets/d/1sccy64Za7BICVncwxTsg3Fj3W8kegzsFk1VG92n6ato/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1sccy64Za7BICVncwxTsg3Fj3W8kegzsFk1VG92n6ato/edit?usp=sharing) before updating.
 
 **Current Load Order (v0.6.3):** [Load Order Document](#)
-
-CHANGELOG COMING SOON
 
 ---
 
