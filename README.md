@@ -8,7 +8,7 @@
 
 - 📦 **Download via Wabbajack:** [Wabbajack.org](https://www.wabbajack.org/)
 - 🛠 **Modlist Status:** ✅ Stable  
-- 📌 **Latest Version:** `v0.6.3`  
+- 📌 **Latest Version:** `v0.9.9.9`  
 - 💬 **Discord Support:** [Join Here](https://discord.gg/XUGWDdHhTc)  
 - 🎥 **YouTube Showcase:** [FROST Gaming Verse](https://youtube.com/@FROSTGamingVerse)
 
