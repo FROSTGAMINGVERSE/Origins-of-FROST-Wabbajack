@@ -8,7 +8,7 @@
 
 - 📦 **Download via Wabbajack:** [Wabbajack.org](https://www.wabbajack.org/)
 - 🛠 **Modlist Status:** ✅ Stable  
-- 📌 **Latest Version:** `v0.9.9.9`  
+- 📌 **Latest Version:** `v1.0.0`  
 - 💬 **Discord Support:** [Join Here](https://discord.gg/XUGWDdHhTc)  
 - 🎥 **YouTube Showcase:** [FROST Gaming Verse](https://youtube.com/@FROSTGamingVerse)
 
@@ -30,14 +30,21 @@
 
 ---
 
-## ⚙️ Minimum Requirements
+## ⚙️ Minimum Requirements for Quality mode 1080p
 
 - **Skyrim Version:** Anniversary Edition (Steam, fully updated with all DLC)  
-- **Storage:** SSD with at least 150GB free space  
+- **Storage:** SSD with at least 180GB free space  
 - **RAM:** 16GB minimum (32GB recommended)  
-- **GPU:** RX 6700 XT / RTX 3070  
+- **GPU:** RX 9060 xt 16GB Vram or Nvidia Equivalent
 - **CPU:** Ryzen 5 5600X / i5-11400F
 
+## ⚙️ Minimum Requirements for Performance Mode 1080p (Upscaling)
+
+- **Skyrim Version:** Anniversary Edition (Steam, fully updated with all DLC)  
+- **Storage:** SSD with at least 180GB free space  
+- **RAM:** 16GB minimum (32GB recommended)  
+- **GPU:** RX 6600 XT 8gb Vram or Nvidia Equivalent
+- **CPU:** Ryzen 5 5600 / i5-10400
 ---
 
 ## 🚀 Installation Instructions
