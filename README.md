@@ -70,10 +70,10 @@ A step-by-step installation guide covering:
 
 ---
 
-## 🐛 Common Issues
+## 🐛 Common/known Issues
 
 - Do **not** launch the game via Steam — always use MO2
-- 
+- There is a first person parkour bug, simply take out your weapon and switch cameras (Waitng for IC support to drop)
 - 
 
 ---
