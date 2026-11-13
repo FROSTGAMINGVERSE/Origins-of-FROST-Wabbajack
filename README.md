@@ -11,7 +11,7 @@ A Nordic Skyrim modlist by **FROST FX**, built around Northern Roads, Ulvenwald 
 - Windows 10/11 x64 and Steam Skyrim Special Edition with the Anniversary Upgrade's required Creation Club content downloaded in game.
 - A Nexus Mods account and any free accounts required by the download sources. Premium is optional; downloads without Premium may require interaction.
 - Microsoft Visual C++ 2015–2022 Redistributable x64.
-- SSD storage. Compiler metadata reports approximately **261 GiB installed** and **177 GiB of source archives/game files**, approximately **438 GiB combined** before working space. Existing game files may be reused. Reserve **at least 500 GiB** when installation and downloads share a volume. Independent installation space use has not yet been measured.
+- SSD storage. The slim package targets approximately **234 GiB installed** and **177 GiB of source archives/game files**, approximately **410 GiB combined** before working space. Existing game files may be reused. Reserve **at least 500 GiB** when installation and downloads share a volume. Independent installation space use has not yet been measured.
 - Hardware minimums are not yet validated. 32 GiB RAM is a preparation recommendation, not a tested minimum. GPU/VRAM requirements depend on resolution and shader settings.
 
 The runtime inside the list is **1.6.1170**, using an isolated **Stock Game** folder. Users must not manually downgrade or replace files in their Steam game as a prerequisite. Automatic reconstruction from supported storefront files must pass a clean-install test before release.
@@ -37,6 +37,7 @@ Keep the supplied mod and plugin orders. Do not launch the list through Steam, u
 - BFCO, Modern Vanilla Combat, Elden Parry, and grounded movement shape combat.
 - City, quest, armor, NPC, audio, UI and immersion additions retain their supplied compatibility patches.
 - Material reconstruction companions preserve existing generated textures while allowing Wabbajack to rebuild them from original downloads and game files.
+- The release omits fully overwritten loose-file copies, hidden files, backups and optional developer symbols. The original authoring instance retains those files; keep the supplied enabled mod order when playing the release.
 
 Use the supplied profile INIs/configuration mods. A verified controls and MCM reference remains a release gate; no untested key bindings are asserted here.
 
