@@ -21,7 +21,7 @@ The runtime inside the list is **1.6.1170**, using an isolated **Stock Game** fo
 The corrected 2.0.0 Beta installer is compiled. CDN upload and unofficial gallery registration are pending. These steps apply once the public download is available. Read the beta limitations before installing.
 
 1. Install Skyrim through Steam, run its launcher once, and download the required owned Anniversary creations in game. Close Skyrim.
-2. Install [Wabbajack](https://www.wabbajack.org/). Once the repository is approved, enable **Show Unofficial Lists**, select **Origins Of Frost v2.0 Beta**, and begin installation. A direct installer download can also be opened in Wabbajack.
+2. Install [Wabbajack](https://www.wabbajack.org/). Once the repository is approved, enable **Show Unofficial Lists**, select **Origins Of Frost Beta** (version **2.0.0-beta**), and begin installation. A direct installer download can also be opened in Wabbajack.
 3. Choose an empty install folder outside Program Files, Steam's game directory, and OneDrive. Choose a downloads location with enough space; it may be on another drive.
 4. Sign in to requested download services and finish installation. Resolve errors before launching.
 5. Open the installed ModOrganizer.exe, select **Origins Of FROST**, and run **SKSE**.
