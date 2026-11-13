@@ -1,6 +1,6 @@
 # 2.0.0 Beta release gates
 
-The author selected the current setup for an as-is 2.0.0 Beta. The package compiled successfully and passed archive integrity and scoped packaging checks. No public beta download has been published. Unchecked validation items describe known beta limitations and follow-up work, rather than claiming stable release readiness.
+The author selected the current setup for an as-is 2.0.0 Beta. The package compiled successfully and passed archive integrity and scoped packaging checks. The corrected beta installer is uploaded to Wabbajack CDN. Unofficial gallery registration is being submitted. Unchecked validation items describe known beta limitations and follow-up work, rather than claiming stable release readiness.
 
 - [x] Active profile renamed; profile and instance configuration backed up.
 - [x] Enabled mods and source archives inventoried.
@@ -36,4 +36,4 @@ Featured status is granted by Wabbajack after review, not by compilation.
 - PG output now uses 23,371 binary reconstruction directives and 311 unchanged sourced files; only its metadata file is embedded directly.
 - All 220,551 installed paths/hashes match the previous candidate. ZIP CRC, native Wabbajack reader and native hash checks passed.
 - Corrected installer: 1,075,602,242 bytes; metadata and verification are linked from the README.
-- Fresh installation of this corrected candidate remains untested. CDN upload and unofficial repository registration remain pending.
+- Fresh installation of this corrected candidate remains untested. CDN upload passed: public file definition and sampled public parts match. Unofficial repository review remains pending.

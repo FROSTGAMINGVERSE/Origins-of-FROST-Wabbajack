@@ -25,3 +25,9 @@ Save compatibility is not established. Start a new game for candidate testing.
 - Corrected PG source packaging: removed the hosted PG output dependency and rebuilt modifications from original sources. All 220,551 installed paths/hashes are unchanged.
 - Corrected package is 1.08 GB; source downloads total about 174 GiB and installed directives about 233 GiB.
 - Added matching installer metadata, checksum, packaging verification and a 16:9 gallery image. Prepared unofficial-gallery registration; public CDN upload and Wabbajack review are pending.
+
+### Unofficial beta publication
+
+- Uploaded the corrected installer to Wabbajack CDN. All upload response hashes and public definition matched; first, middle and last public chunk hashes passed.
+- Prepared the numeric 2.0.0 gallery entry with an explicit Beta title, valid tags and matching metadata. Updated the public inventory to 1,948 enabled mods.
+- Refreshed the repository landing page and current beta guide. Unofficial gallery approval and fresh corrected-package install testing remain pending.
