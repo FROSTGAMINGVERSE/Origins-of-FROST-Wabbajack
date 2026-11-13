@@ -1,130 +1,59 @@
-# 🌨️ Origins of FROST – Wabbajack Modlist
+# Origins Of FROST
 
-*Origins of FROST* is a next-gen Skyrim modlist that transforms the game with breathtaking visuals, immersive mechanics, and rock-solid stability. Designed for players who want a modernized experience while preserving the heart of vanilla Skyrim’s combat.
+A Nordic Skyrim modlist by **FROST FX**, built around Northern Roads, Ulvenwald and WardenWood, Bottled Shaders, BFCO combat, and grounded movement.
 
----
+## Release status
 
-## 📥 Quick Links
+**1.5.3 is a release candidate under validation.** This documents the current build, not a tested public download or Wabbajack Featured approval. The older 1.5.2 package does not reproduce this build. See [release gates](RELEASE-STATUS.md) and [changelog](CHANGELOG.md). Use a new game for candidate testing; save compatibility is not established.
 
-- 📦 **Download via Wabbajack:** [Wabbajack.org](https://www.wabbajack.org/)
-- 🛠 **Modlist Status:** ✅ Stable  
-- 📌 **Latest Version:** `v1.0.0`  
-- 💬 **Discord Support:** [Join Here](https://discord.gg/XUGWDdHhTc)  
-- 🎥 **YouTube Showcase:** [FROST Gaming Verse](https://youtube.com/@FROSTGamingVerse)
+## Requirements
 
----
+- Windows 10/11 x64 and Steam Skyrim Special Edition with the Anniversary Upgrade's required Creation Club content downloaded in game.
+- A Nexus Mods account and any free accounts required by the download sources. Premium is optional; downloads without Premium may require interaction.
+- Microsoft Visual C++ 2015–2022 Redistributable x64.
+- SSD storage. Enabled mods currently occupy approximately **242 GiB**, and source archives approximately **162 GiB**. Stock Game and temporary installation files require more space. Reserve **at least 500 GiB** for installation with downloads on the same volume; final compiler sizes will replace these planning estimates.
+- Hardware minimums are not yet validated. 32 GiB RAM is a preparation recommendation, not a tested minimum. GPU/VRAM requirements depend on resolution and shader settings.
 
-## 🧭 Features
+The runtime inside the list is **1.6.1170**, using an isolated **Stock Game** folder. Users must not manually downgrade or replace files in their Steam game as a prerequisite. Automatic reconstruction from supported storefront files must pass a clean-install test before release.
 
-- ⚔️ *Vanilla+ Combat* — Clean, skill-based combat with no janky fatigue systems.
-- 🌲 *Insanely Modded World* — Major overhauls to cities, environments, and dungeons.
-- 🎮 *One-Click Install* — Wabbajack does the heavy lifting.
-- 👑 *Lore-Friendly Additions* — Carefully curated new armor, events, and gear.
-- 🧊 *Smooth Performance* — Dynamic LOD, HD trees, 3D grass, and bug fixes.
+## Installation
 
----
+These steps apply once a tested 1.5.3 package is linked in the release notes.
 
-## 📸 Screenshots
+1. Install Skyrim through Steam, run its launcher once, and download the required owned Anniversary creations in game. Close Skyrim.
+2. Install [Wabbajack](https://www.wabbajack.org/) and select the released Origins Of FROST package.
+3. Choose an empty install folder outside Program Files, Steam's game directory, and OneDrive. Choose a downloads location with enough space; it may be on another drive.
+4. Sign in to requested download services and finish installation. Resolve errors before launching.
+5. Open the installed ModOrganizer.exe, select **Origins Of FROST**, and run **SKSE**.
+6. Let first-launch shader compilation and new-game initialization finish before making a manual save.
 
-> *lINK COMING SOON*
+Keep the supplied mod and plugin orders. Do not launch the list through Steam, use LOOT to replace its order, update individual shader/framework mods, or regenerate outputs as an ordinary installation step. The release should ship validated generated outputs.
 
----
+## Included systems
 
-## ⚙️ Minimum Requirements for Quality mode 1080p
+- Northern Roads and its compatibility family receive late worldspace priority.
+- Ulvenwald and WardenWood provide the forest setup.
+- Bottled Shaders 1.0.27 with the Cabbage Effects11 setup supplies the current rendering configuration.
+- BFCO, Modern Vanilla Combat, Elden Parry, and grounded movement shape combat.
+- City, quest, armor, NPC, audio, UI and immersion additions retain their supplied compatibility patches.
 
-- **Skyrim Version:** Anniversary Edition (Steam, fully updated with all DLC)  
-- **Storage:** SSD with at least 180GB free space  
-- **RAM:** 16GB minimum (32GB recommended)  
-- **GPU:** RX 9060 xt 16GB Vram or Nvidia Equivalent
-- **CPU:** Ryzen 5 5600X / i5-11400F
+Use the supplied profile INIs/configuration mods. A verified controls and MCM reference remains a release gate; no untested key bindings are asserted here.
 
-## ⚙️ Minimum Requirements for Performance Mode 1080p (Upscaling)
+## Known issues and limits
 
-- **Skyrim Version:** Anniversary Edition (Steam, fully updated with all DLC)  
-- **Storage:** SSD with at least 180GB free space  
-- **RAM:** 16GB minimum (32GB recommended)  
-- **GPU:** RX 6600 XT 8gb Vram or Nvidia Equivalent
-- **CPU:** Ryzen 5 5600 / i5-10400
----
+- Grass, terrain and object LOD must match the finalized road/forest setup; earlier output is not proof of a completed 1.5.3 generation run.
+- Cabbage declares an unavailable lens-dirt resource with its intensity parameters set to zero. The unused-resource warning and final visual grading require verification.
+- Startup is lengthy: previous warm tests were roughly two minutes on the development machine, not a guarantee for other systems.
+- New-game initialization, save/load, travel, controls and sustained gameplay testing remain release gates. xEdit loading alone does not prove stability.
 
-## 🚀 Installation Instructions
+## Updates and support
 
-1. Download and install [Wabbajack](https://www.wabbajack.org/)
-2. Launch Wabbajack and find “Origins of FROST” in the modlist browser
-3. Choose your **Install** and **Download** locations
-4. Click **Start** to begin installation
-5. Once complete, launch the game using **Mod Organizer 2 (MO2)** — not Steam
+Read the changelog before updating, back up saves/settings, and keep personal additions separate. Reproduce issues on the supported setup where possible.
 
-> 💡 Need help? Full setup guide coming soon!
+Report bugs through [GitHub Issues](https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/issues), including release version, relevant errors, location and reproduction steps. Redact personal paths/account details before posting logs. The existing [community Discord](https://discord.gg/bPDhhyBej3) is an additional contact route. Support for the released list is not paywalled.
 
----
+## Credits and reuse
 
-## 📚 Full Guide (Coming Soon)
+Thanks to the original mod authors, Wabbajack, Mod Organizer 2, SKSE, xEdit, DynDOLOD, and all shader/patch/animation/asset creators. The [current enabled-mod inventory](MODLIST.csv) links upstream pages. The final compiled archive report will provide exact download attribution.
 
-A step-by-step installation guide covering:
-- System prep
-- Settings and INI tweaks
-- Performance optimization
-- Troubleshooting common issues
-- ENB and ReShade tips
-
----
-
-## 🐛 Common/known Issues
-
-- Do **not** launch the game via Steam — always use MO2
-- There is a first person parkour bug, simply take out your weapon and switch cameras (Waitng for IC support to drop)
-- 
-
----
-
-## 🛠️ Mod Highlights
-
-| Category        | Notable Mods                                        | Description                                   |
-|----------------|------------------------------------------------------|-----------------------------------------------|
-| Visuals         | EVLaS, NAT.ENB, Happy Little Trees                  | Lighting, ENB shaders, and landscape overhaul |
-| Cities & World  | COTN, The Great Cities, Solitude Remastered         | Expansive city and town redesigns             |
-| Gameplay        | TrueHUD, MCM Tweaks                                 | UI and mechanics refinement                   |
-| Immersion       | Sounds of Skyrim, Realistic Water Two               | Audio and environmental upgrades              |
-| Armor & Gear    | NordWarUA's Sets, Guard Armor Replacer              | Lore-friendly armors                          |
-| Extras          | HDT-SMP, 3D Trees, Dynamic Snow & LOD               | Physics, depth, and realism enhancements      |
-
----
-
-## 🔄 Updating the List
-
-> ⚠️ **Note:** Not all updates are save-compatible.  
-> Always check the [Changelog & Save Compatibility Sheet]([https://docs.google.com/spreadsheets/d/1sccy64Za7BICVncwxTsg3Fj3W8kegzsFk1VG92n6ato/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1sccy64Za7BICVncwxTsg3Fj3W8kegzsFk1VG92n6ato/edit?usp=sharing) before updating.
-
-**Current Load Order (v0.6.3):** [Load Order Document](#)
-
----
-
-## ❓ FAQ
-
-**Q: Can I add my own mods?**  
-A: Yes, but be cautious. Use MO2 profiles to avoid breaking the main setup.
-
-**Q: Is this beginner-friendly?**  
-A: Absolutely. Wabbajack handles everything. No manual modding required.
-
-**Q: Is it lore-friendly?**  
-A: Yes. Every mod is hand-selected to stay true to Skyrim’s world and tone.
-
----
-
-> 🎮 Thank you for choosing *Origins of FROST*. Whether you're returning to Skyrim or diving in for the first time, we hope this list brings your journey to life in the most immersive way possible.
-
----
-
-## 🙌 Credits
-
-Big thanks to:
-- All Skyrim mod creators
-- Wabbajack team and developers
-- The FROST Gaming Verse community
-
----
-
-> © 2025 FROST Gaming Verse  
-> This project is not affiliated with Bethesda. All mods belong to their respective authors.
+Original FROST-authored configuration and documentation may be forked, modified and redistributed under [LICENSE](LICENSE). Forks must use a distinct name and provide their own support. This does not grant redistribution rights over Bethesda files or third-party mods; their original licenses apply. Wabbajack must obtain their originals from appropriate sources and reconstruct permitted modifications.
