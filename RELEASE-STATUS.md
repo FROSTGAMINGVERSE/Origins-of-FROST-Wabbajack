@@ -7,14 +7,15 @@ Preparation in progress; no tested public package published.
 - [x] Dedicated compiler recipe prepared with recovered artwork.
 - [x] Current documentation and changelog drafted.
 - [x] Stock Game copied; critical hashes and 74 required CC plugin files verified.
-- [ ] Stock Game launch validated: the first smoke test stalled during loader initialization before showing a game window.
+- [x] Stock Game launched through MO2; main menu and a new character in the Alternate Perspective starting room verified.
+- [x] Author confirmed FROSTReleaseTest saves and reloads correctly, then exited normally; Root Builder reported clean.
 - [ ] Current storefront-to-1.6.1170 automatic reconstruction verified.
 - [ ] Missing archives and unmatched compiler files resolved.
 - [ ] Full plugin conflict/error review completed.
 - [ ] Grass/terrain/TexGen/DynDOLOD outputs regenerated where required. TexGen and DynDOLOD explicitly deferred by the author on 2026-11-13.
 - [ ] Compiler completes without prohibited bundled assets.
 - [ ] Installation into an empty different-path folder succeeds.
-- [ ] New game, controls, MCMs, shaders, travel and save/load tested.
+- [ ] Controls, MCM configuration, final shader appearance, travel and sustained gameplay tested. The starting-room smoke test does not cover these checks.
 - [ ] Measured requirements, final disk sizes and known issues finalized.
 - [ ] Tested package and gallery metadata published.
 - [ ] Unofficial gallery list supported for at least 30 days before Featured review.

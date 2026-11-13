@@ -43,8 +43,8 @@ Use the supplied profile INIs/configuration mods. A verified controls and MCM re
 
 - Grass, terrain and object LOD must match the finalized road/forest setup; earlier output is not proof of a completed 1.5.3 generation run.
 - Cabbage declares an unavailable lens-dirt resource with its intensity parameters set to zero. The unused-resource warning and final visual grading require verification.
-- Startup is lengthy: previous warm tests were roughly two minutes on the development machine, not a guarantee for other systems.
-- New-game initialization, save/load, travel, controls and sustained gameplay testing remain release gates. xEdit loading alone does not prove stability.
+- Startup is lengthy: a full cold shader build reached the main menu in approximately 11 minutes on the development machine while the compiler was also running. Previous warm tests were roughly two minutes. These are development observations, not performance guarantees.
+- The isolated game reached a new character in the Alternate Perspective starting room. The author confirmed save/reload and normal exit; Root Builder reported clean afterward. Travel, controls, MCM configuration, final shader appearance and sustained gameplay remain release gates.
 
 ## Updates and support
 

@@ -8,6 +8,7 @@
 - Compared 19,966 road/worldspace records through MO2-launched xEdit: 82 winners changed to the road compatibility family; static dependency checks passed. Full conflict/error and gameplay reviews remain pending.
 - Retained Bottled Shaders 1.0.27 and preset compatibility fixes.
 - Prepared isolated game files and a dedicated compiler catalog excluding locally archived ParallaxGen assets as download sources.
+- Verified the isolated game reaches the main menu and a new character's starting room. The author confirmed save/reload and normal exit; Root Builder cleanup passed. Broader gameplay and independent installation tests remain pending.
 - Updated requirements and documentation without claiming a completed public release.
 
 Save compatibility is not established. Start a new game for candidate testing.
