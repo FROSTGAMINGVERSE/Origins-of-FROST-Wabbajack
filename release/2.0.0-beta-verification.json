@@ -76,5 +76,28 @@
       ]
     }
   ],
-  "note": "Static packaging/source verification, not a fresh install or gameplay test."
+  "note": "Static packaging/source verification, not a fresh install or gameplay test.",
+  "cleanInstall": {
+    "verifiedUTC": "2026-11-13T20:20:01.777882+00:00",
+    "packageSHA256": "4b5ad1f42e40a6eaca3f5044ded4741920fd6b453e5cd61743217538759400fd",
+    "installFolder": "C:/Games/Modded/Skyrim Compliance Test",
+    "downloads": "C:/Games/Modded/Skyrim Test Downloads",
+    "finishedInstallation": true,
+    "installDurationSeconds": 721.19,
+    "nativeVerifierErrors": 0,
+    "gameplayTested": false,
+    "latestStorefrontTested": false,
+    "TexGenDynDOLODRegenerated": false
+  },
+  "winnerVerification": {
+    "oldWinners": 215280,
+    "newWinners": 213532,
+    "unchangedWinningFiles": 213529,
+    "intentionalRemovedCount": 1750,
+    "intentionalChangedPaths": [
+      "source\\scripts\\accuracy.psc"
+    ],
+    "unexpectedChanges": [],
+    "scope": "MO2 loose-file priority equivalence; not plugin record or runtime validation."
+  }
 }

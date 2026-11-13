@@ -22,7 +22,7 @@ The author selected the current setup for an as-is 2.0.0 Beta. The package compi
 
 Featured status is granted by Wabbajack after review, not by compilation.
 
-## Current C-base rebuild
+## Earlier C-base rebuild — superseded
 
 - Uses the independently installed C: profile, with the menu video removed.
 - Wallpaper 1.1.0 and launch splash 1.0.0 are hosted on Nexus mod 135911, files 838021 and 838023.
@@ -30,7 +30,7 @@ Featured status is granted by Wabbajack after review, not by compilation.
 - The fresh C-base cold launch recorded the main-menu event at 662.2 seconds (about 11 minutes), including first-launch initialization and shader compilation. All 2,250 plugins had loaded by about 7 minutes 19 seconds. Cold startup remains a known performance issue.
 - Full gameplay, a fresh installation of this rebuilt package and visual confirmation of the new wallpaper remain pending.
 
-## ParallaxGen packaging correction — 2026-11-13
+## Earlier ParallaxGen-only candidate — superseded
 
 - Removed Nexus mod 143468/file 768794 (hosted PG output) from compiler sources.
 - PG output now uses 23,371 binary reconstruction directives and 311 unchanged sourced files; only its metadata file is embedded directly.
@@ -44,4 +44,4 @@ Featured status is granted by Wabbajack after review, not by compilation.
 - Retained overrides use original source downloads/reconstruction; no raw mesh/texture/DLL/HKX/PEX files are directly inlined. GPL notice and editable Papyrus binding interfaces are included.
 - Public CDN definition and sampled chunk hashes match; all 475 upload responses matched.
 - Nexus AI disclosures and standalone artwork presentation saved. Resources opted out of Donation Points. Clean optional configuration repair pack: mod143468/file838122. Archived historical content is not fully withdrawn; author declined contacting Nexus support. This remains a historical-hosting limitation, not a dependency of the corrected package.
-- Fresh installation into C:/Games/Modded/Skyrim Compliance Test is underway using the existing downloads cache. No new gameplay, save/load, latest-storefront or final LOD validation is claimed.
+- Fresh installation into C:/Games/Modded/Skyrim Compliance Test finished in 12 minutes 1 second using the existing downloads cache. Wabbajack native verify-modlist-install reported **0 errors**. No new gameplay, save/load, latest-storefront or final LOD validation is claimed.

@@ -74,7 +74,7 @@ Editable Papyrus native-interface declarations and GPL-3.0 notices are included.
 
 Legacy bundles are archived on Nexus. Archiving does not permanently remove their contents or establish historical redistribution permission. The author elected new uploads rather than contacting support for permanent withdrawal. These retired bundles are absent from this build's dependency set.
 
-Fresh-install validation is recorded in [RELEASE-STATUS.md](RELEASE-STATUS.md). Broad gameplay and final TexGen/DynDOLOD remain deferred.
+A separate clean installation completed in 12 minutes 1 second using the existing cache, and Wabbajack’s native installed-file verifier reported **0 errors**. See [RELEASE-STATUS.md](RELEASE-STATUS.md). Broad gameplay, a new runtime/save-load test after removing the experimental upscaler, latest-storefront validation and final TexGen/DynDOLOD remain deferred.
 
 SHA256: `4b5ad1f42e40a6eaca3f5044ded4741920fd6b453e5cd61743217538759400fd`
 
