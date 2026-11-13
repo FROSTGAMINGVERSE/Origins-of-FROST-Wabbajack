@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.0.0 Beta — Compliance correction (2026-11-13)
+
+- Clarified CC BY-NC-SA 4.0 for the compiled Wabbajack list and the separate MIT scope for original FROST documentation/configuration.
+- Quarantined the custom patch, legacy Pandora, Leap Of Faith Fix and experimental Optiscaler bundles from compiler source downloads. Original source files are retained for rollback.
+- Excluded the experimental Optiscaler DLSS 5 bundle and regenerable cell-offset caches from the release. The upscaling change needs a fresh runtime smoke test.
+- Added targeted reconstruction companions for retained armor, combat bindings and Markarth overrides. Compilation and manifest verification are tracked separately; this entry does not claim an end-to-end install or broad gameplay test.
+- Added the required AI-generated artwork tag and a specific creation/install disclosure on the Nexus artwork page. Legacy hosting retirement and Donation Points cleanup are tracked in the release status.
+
 ## 2.0.0 Beta — Gallery preparation (2026-11-13)
 
 - Supersedes the released 1.5.2b baseline. The author selected the current setup for an as-is beta.

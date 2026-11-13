@@ -1,4 +1,21 @@
-MIT License
+Origins Of Frost licensing scope
+
+The compiled Wabbajack modlist is licensed under Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0),
+as required by Wabbajack. See:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+https://github.com/wabbajack-tools/wabbajack/blob/main/LICENSE.txt
+
+The modlist, its beta/test builds and its support must remain freely
+accessible. Donations are optional and must not gate access or support.
+This does not relicense any included or downloaded third-party component.
+Bethesda files and third-party mods, tools, code and assets retain their
+respective copyright, license, attribution and source obligations.
+
+The separate MIT grant below applies only to original FROST-authored
+configuration and documentation, not to the compiled modlist as a whole.
+
+MIT License (original FROST-authored configuration and documentation only)
 
 Copyright (c) 2026 FROST FX
 

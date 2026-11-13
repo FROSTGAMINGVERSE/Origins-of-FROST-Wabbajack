@@ -37,3 +37,11 @@ Featured status is granted by Wabbajack after review, not by compilation.
 - All 220,551 installed paths/hashes match the previous candidate. ZIP CRC, native Wabbajack reader and native hash checks passed.
 - Corrected installer: 1,075,602,242 bytes; metadata and verification are linked from the README.
 - Fresh installation of this corrected candidate remains untested. CDN upload passed: public file definition and sampled public parts match. Unofficial repository review remains pending.
+
+## Compliance correction — 13 November 2026
+
+- Current corrected installer: 995,218,900 bytes; 2,107 source archives; 218,808 installed file directives. Four flagged bundle source dependencies and all packaged cell-offset caches are absent. Experimental Optiscaler DLSS5 is excluded.
+- Retained overrides use original source downloads/reconstruction; no raw mesh/texture/DLL/HKX/PEX files are directly inlined. GPL notice and editable Papyrus binding interfaces are included.
+- Public CDN definition and sampled chunk hashes match; all 475 upload responses matched.
+- Nexus AI disclosures and standalone artwork presentation saved. Resources opted out of Donation Points. Clean optional configuration repair pack: mod143468/file838122. Archived historical content is not fully withdrawn; author declined contacting Nexus support. This remains a historical-hosting limitation, not a dependency of the corrected package.
+- Fresh installation into C:/Games/Modded/Skyrim Compliance Test is underway using the existing downloads cache. No new gameplay, save/load, latest-storefront or final LOD validation is claimed.

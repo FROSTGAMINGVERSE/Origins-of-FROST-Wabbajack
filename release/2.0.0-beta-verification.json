@@ -1,22 +1,80 @@
 {
-  "checkedUTC": "2026-11-13T18:08:19.788457+00:00",
-  "packageBytes": 1075602242,
-  "forbiddenHostedPGArchiveAbsent": true,
-  "PGOutputFiles": 23683,
-  "PGDirectiveTypes": {
-    "InlineFile": 1,
-    "PatchedFromArchive": 23371,
-    "FromArchive": 311
-  },
-  "PGInlineFiles": [
-    "mods\\FROST - Ulvenwald WardenWood Hybrid PG Output\\meta.ini"
+  "sha256": "4b5ad1f42e40a6eaca3f5044ded4741920fd6b453e5cd61743217538759400fd",
+  "bytes": 995218900,
+  "CRCVerified": true,
+  "forbiddenArchivesAbsent": true,
+  "archiveCount": 2107,
+  "installedFiles": 218808,
+  "reconstructions": [
+    {
+      "target": "mods\\FROST - Combat Binding Reconstruction\\Scripts\\Accuracy.pex",
+      "type": "PatchedFromArchive",
+      "source": "Accuracy - MCM menu 187578 MCM-01 2026-08-07T23-03Z CmfxYjTwZ.zip",
+      "path": [
+        "Accuracy - MCM.bsa"
+      ]
+    },
+    {
+      "target": "mods\\FROST - Combat Binding Reconstruction\\Scripts\\CoreImpactFramework.pex",
+      "type": "PatchedFromArchive",
+      "source": "Accuracy - MCM menu 187578 MCM-01 2026-08-07T23-03Z CmfxYjTwZ.zip",
+      "path": [
+        "Accuracy - MCM.bsa",
+        "interface\\accuracy\\logo.swf"
+      ]
+    },
+    {
+      "target": "mods\\FROST - Combat Binding Reconstruction\\Scripts\\DynamicArmorPhysics.pex",
+      "type": "PatchedFromArchive",
+      "source": "Accuracy - MCM menu 187578 MCM-01 2026-08-07T23-03Z CmfxYjTwZ.zip",
+      "path": [
+        "Accuracy - MCM.bsa"
+      ]
+    },
+    {
+      "target": "mods\\FROST - Markarth Patch Reconstruction\\JKs Markarth Outskirts - LaWF patch.esp",
+      "type": "PatchedFromArchive",
+      "source": "JK's Markarth Outskirts Patch Collection-95750-1-2-1-1776200529.rar",
+      "path": [
+        "JKs Markarth Outskirts - LotD patch.esp"
+      ]
+    },
+    {
+      "target": "mods\\FROST - Volkihar Source Reconstruction\\meshes\\armor\\volkiharknight\\volkiharknightcuirassAbysswalkerf_0.nif",
+      "type": "PatchedFromArchive",
+      "source": "Volkihar Knight SE 1.0.0-4806-1-0-0-1547251285.zip",
+      "path": [
+        "Data\\Volkihar Knight.bsa",
+        "meshes\\armor\\volkiharknight\\volkiharknightcuirassf_0.nif"
+      ]
+    },
+    {
+      "target": "mods\\FROST - Volkihar Source Reconstruction\\meshes\\armor\\volkiharknight\\volkiharknightcuirassAbysswalkerf_1.nif",
+      "type": "PatchedFromArchive",
+      "source": "Volkihar Knight SE 1.0.0-4806-1-0-0-1547251285.zip",
+      "path": [
+        "Data\\Volkihar Knight.bsa",
+        "meshes\\armor\\volkiharknight\\volkiharknightcuirassf_1.nif"
+      ]
+    },
+    {
+      "target": "mods\\FROST - Volkihar Source Reconstruction\\meshes\\armor\\volkiharknight\\volkiharknightcuirassAssassinf_0.nif",
+      "type": "PatchedFromArchive",
+      "source": "Volkihar Knight SE 1.0.0-4806-1-0-0-1547251285.zip",
+      "path": [
+        "Data\\Volkihar Knight.bsa",
+        "meshes\\armor\\volkiharknight\\volkiharknightcuirassf_0.nif"
+      ]
+    },
+    {
+      "target": "mods\\FROST - Volkihar Source Reconstruction\\meshes\\armor\\volkiharknight\\volkiharknightcuirassAssassinf_1.nif",
+      "type": "PatchedFromArchive",
+      "source": "Volkihar Knight SE 1.0.0-4806-1-0-0-1547251285.zip",
+      "path": [
+        "Data\\Volkihar Knight.bsa",
+        "meshes\\armor\\volkiharknight\\volkiharknightcuirassf_1.nif"
+      ]
+    }
   ],
-  "allInstalledPathsAndHashesIdentical": true,
-  "installedFileCount": 220551,
-  "zipCRCVerified": true,
-  "scope": "ParallaxGen utility-output source and inline checks; not a blanket license audit",
-  "sha256": "79be13511c118ba62cf6599d81538840eeec53a6543ef5ec9ceec56a4034c265",
-  "nativeWabbajackReaderPassed": true,
-  "nativeWabbajackHash": "UTYyHvYdzSc=",
-  "freshCorrectedPackageInstallTested": false
+  "note": "Static packaging/source verification, not a fresh install or gameplay test."
 }

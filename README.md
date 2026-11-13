@@ -18,7 +18,7 @@ The runtime inside the list is **1.6.1170**, using an isolated **Stock Game** fo
 
 ## Installation
 
-The corrected 2.0.0 Beta installer is [available from the Wabbajack CDN](https://authored-files.wabbajack.org/Origins%20Of%20Frost%20v2.0%20Beta.wabbajack_5f7a936f-a923-4b3e-842f-b0ab1a57a6b1). Unofficial gallery registration is being submitted; direct installation is available while review is pending. Read the beta limitations before installing.
+The corrected 2.0.0 Beta installer is [available from the Wabbajack CDN](https://authored-files.wabbajack.org/Origins%20Of%20Frost%20v2.0%20Beta.wabbajack_4cd96bfb-cd00-4689-8537-8e407eda7938). Unofficial gallery registration is being submitted; direct installation is available while review is pending. Read the beta limitations before installing.
 
 1. Install Skyrim through Steam, run its launcher once, and download the required owned Anniversary creations in game. Close Skyrim.
 2. Install [Wabbajack](https://www.wabbajack.org/). Once the repository is approved, enable **Show Unofficial Lists**, select **Origins Of Frost Beta** (version **2.0.0**), and begin installation. A direct installer download can also be opened in Wabbajack.
@@ -58,7 +58,7 @@ Report bugs through [GitHub Issues](https://github.com/FROSTGAMINGVERSE/Origins-
 
 Thanks to the original mod authors, Wabbajack, Mod Organizer 2, SKSE, xEdit, DynDOLOD, and all shader/patch/animation/asset creators. The [current enabled-mod inventory](MODLIST.csv) links upstream pages. The final compiled archive report will provide exact download attribution. Startup and installer branding use AI-generated original artwork commissioned by FROST FX.
 
-Original FROST-authored configuration and documentation may be forked, modified and redistributed under [LICENSE](LICENSE). Forks must use a distinct name and provide their own support. This does not grant redistribution rights over Bethesda files or third-party mods; their original licenses apply. Wabbajack must obtain their originals from appropriate sources and reconstruct permitted modifications.
+The compiled Wabbajack modlist is **CC BY-NC-SA 4.0**. The separate MIT grant in [LICENSE](LICENSE) covers only original FROST-authored configuration and documentation. Forks must use a distinct name and provide their own support. Bethesda files and third-party mods retain their original terms; neither grant permits rehosting their assets without permission. The list, beta builds and support are free; donations never gate access.
 
 ## Current beta menu presentation
 
@@ -66,8 +66,16 @@ This revision uses a static Skyrim-inspired landscape with the original wolf/dra
 
 ## Corrected installer and packaging
 
-The ParallaxGen source correction uses original mod/game downloads and binary reconstruction patches. It no longer downloads the hosted PG output archive. All 220,551 installed paths and file hashes match the previous candidate. The installer is 1,075,602,242 bytes (about 1.08 GB); this size includes the reconstruction patches. A fresh installation of this corrected candidate has not yet been tested.
+The current installer is **995,218,900 bytes** (995 MB) and contains 218,808 installed file directives. It reconstructs ParallaxGen and retained armor/combat/Markarth modifications from original downloads, and no longer requires the old Custom Patch, Pandora, Leap Of Faith Fix or Optiscaler bundle archives. Raw animations resolve to original sources; generated behaviors remain separate.
 
-SHA256: `79be13511c118ba62cf6599d81538840eeec53a6543ef5ec9ceec56a4034c265`
+The experimental Optiscaler DLSS5 bundle is excluded from the release profile pending provenance/licence/runtime verification. Faster Cell Lookup regenerates its own cell-offset cache on first launch; first startup can therefore be longer. The old local files are retained for author rollback, outside the compiler source pool.
 
-[Installer metadata](release/2.0.0-beta.wabbajack.meta.json) · [Current build verification](release/2.0.0-beta-verification.json)
+Editable Papyrus native-interface declarations and GPL-3.0 notices are included. The wallpaper/splashes disclose AI generation on Nexus. The standalone artwork page is mod135911; list-specific outputs and the optional clean BFCO/MVC/TCC repair configuration pack are on mod143468. The installer already installs those settings.
+
+Legacy bundles are archived on Nexus. Archiving does not permanently remove their contents or establish historical redistribution permission. The author elected new uploads rather than contacting support for permanent withdrawal. These retired bundles are absent from this build's dependency set.
+
+Fresh-install validation is recorded in [RELEASE-STATUS.md](RELEASE-STATUS.md). Broad gameplay and final TexGen/DynDOLOD remain deferred.
+
+SHA256: `4b5ad1f42e40a6eaca3f5044ded4741920fd6b453e5cd61743217538759400fd`
+
+[Installer metadata](release/2.0.0-beta.wabbajack.meta.json) · [Build verification](release/2.0.0-beta-verification.json)
