@@ -1,0 +1,22 @@
+{
+  "checkedUTC": "2026-11-13T18:08:19.788457+00:00",
+  "packageBytes": 1075602242,
+  "forbiddenHostedPGArchiveAbsent": true,
+  "PGOutputFiles": 23683,
+  "PGDirectiveTypes": {
+    "InlineFile": 1,
+    "PatchedFromArchive": 23371,
+    "FromArchive": 311
+  },
+  "PGInlineFiles": [
+    "mods\\FROST - Ulvenwald WardenWood Hybrid PG Output\\meta.ini"
+  ],
+  "allInstalledPathsAndHashesIdentical": true,
+  "installedFileCount": 220551,
+  "zipCRCVerified": true,
+  "scope": "ParallaxGen utility-output source and inline checks; not a blanket license audit",
+  "sha256": "79be13511c118ba62cf6599d81538840eeec53a6543ef5ec9ceec56a4034c265",
+  "nativeWabbajackReaderPassed": true,
+  "nativeWabbajackHash": "UTYyHvYdzSc=",
+  "freshCorrectedPackageInstallTested": false
+}

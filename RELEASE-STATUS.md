@@ -14,10 +14,26 @@ The author selected the current setup for an as-is 2.0.0 Beta. The package compi
 - [ ] Full plugin conflict/error review completed.
 - [ ] Grass/terrain/TexGen/DynDOLOD outputs regenerated where required. TexGen and DynDOLOD explicitly deferred by the author on 2026-11-13.
 - [x] Compiler completed; generated material maps use archive reconstruction, and scoped cache/personal-state and archive-integrity checks passed.
-- [ ] Installation into an empty different-path folder succeeds.
+- [x] Previous v2.0 Beta installed into the empty C:\Games\Modded\Skyrim Test folder using copied archives; Wabbajack verifier reported 0 errors. This installation is the source of this rebuild; a second installation of the updated UI build is still pending.
 - [ ] Controls, MCM configuration, final shader appearance, travel and sustained gameplay tested. The starting-room smoke test does not cover these checks.
 - [ ] Measured requirements, final disk sizes and known issues finalized.
 - [ ] Tested package and gallery metadata published.
 - [ ] Unofficial gallery list supported for at least 30 days before Featured review.
 
 Featured status is granted by Wabbajack after review, not by compilation.
+
+## Current C-base rebuild
+
+- Uses the independently installed C: profile, with the menu video removed.
+- Wallpaper 1.1.0 and launch splash 1.0.0 are hosted on Nexus mod 135911, files 838021 and 838023.
+- The approved MO2 splash is 800x450; the game-launch splash is 640x360.
+- The fresh C-base cold launch recorded the main-menu event at 662.2 seconds (about 11 minutes), including first-launch initialization and shader compilation. All 2,250 plugins had loaded by about 7 minutes 19 seconds. Cold startup remains a known performance issue.
+- Full gameplay, a fresh installation of this rebuilt package and visual confirmation of the new wallpaper remain pending.
+
+## ParallaxGen packaging correction — 2026-11-13
+
+- Removed Nexus mod 143468/file 768794 (hosted PG output) from compiler sources.
+- PG output now uses 23,371 binary reconstruction directives and 311 unchanged sourced files; only its metadata file is embedded directly.
+- All 220,551 installed paths/hashes match the previous candidate. ZIP CRC, native Wabbajack reader and native hash checks passed.
+- Corrected installer: 1,075,602,242 bytes; metadata and verification are linked from the README.
+- Fresh installation of this corrected candidate remains untested. CDN upload and unofficial repository registration remain pending.

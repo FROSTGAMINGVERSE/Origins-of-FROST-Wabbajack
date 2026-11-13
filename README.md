@@ -11,17 +11,17 @@ A Nordic Skyrim modlist by **FROST FX**, built around Northern Roads, Ulvenwald 
 - Windows 10/11 x64 and Steam Skyrim Special Edition with the Anniversary Upgrade's required Creation Club content downloaded in game.
 - A Nexus Mods account and any free accounts required by the download sources. Premium is optional; downloads without Premium may require interaction.
 - Microsoft Visual C++ 2015–2022 Redistributable x64.
-- SSD storage. The slim package targets approximately **234 GiB installed** and **177 GiB of source archives/game files**, approximately **410 GiB combined** before working space. Existing game files may be reused. Reserve **at least 500 GiB** when installation and downloads share a volume. Independent installation space use has not yet been measured.
+- SSD storage. The corrected package describes approximately **233 GiB installed** and **174 GiB of source archives/game files**, approximately **407 GiB combined** before working space. Existing game files may be reused. Reserve **at least 500 GiB** when installation and downloads share a volume. Independent installation space use has not yet been measured.
 - Hardware minimums are not yet validated. 32 GiB RAM is a preparation recommendation, not a tested minimum. GPU/VRAM requirements depend on resolution and shader settings.
 
 The runtime inside the list is **1.6.1170**, using an isolated **Stock Game** folder. Users must not manually downgrade or replace files in their Steam game as a prerequisite. Automatic reconstruction from supported storefront files must pass a clean-install test before release.
 
 ## Installation
 
-These steps apply to the 2.0.0 Beta package when its compiled download is available. Read the beta limitations below before installing.
+The corrected 2.0.0 Beta installer is compiled. CDN upload and unofficial gallery registration are pending. These steps apply once the public download is available. Read the beta limitations before installing.
 
 1. Install Skyrim through Steam, run its launcher once, and download the required owned Anniversary creations in game. Close Skyrim.
-2. Install [Wabbajack](https://www.wabbajack.org/) and select the released Origins Of FROST package.
+2. Install [Wabbajack](https://www.wabbajack.org/). Once the repository is approved, enable **Show Unofficial Lists**, select **Origins Of Frost v2.0 Beta**, and begin installation. A direct installer download can also be opened in Wabbajack.
 3. Choose an empty install folder outside Program Files, Steam's game directory, and OneDrive. Choose a downloads location with enough space; it may be on another drive.
 4. Sign in to requested download services and finish installation. Resolve errors before launching.
 5. Open the installed ModOrganizer.exe, select **Origins Of FROST**, and run **SKSE**.
@@ -45,7 +45,7 @@ Use the supplied profile INIs/configuration mods. A verified controls and MCM re
 
 - Grass, terrain and object LOD must match the finalized road/forest setup; earlier output is not proof of a completed 2.0.0 Beta generation run.
 - Cabbage declares an unavailable lens-dirt resource with its intensity parameters set to zero. The unused-resource warning and final visual grading require verification.
-- Startup is lengthy: a full cold shader build reached the main menu in approximately 11 minutes on the development machine while the compiler was also running. Previous warm tests were roughly two minutes. These are development observations, not performance guarantees.
+- Startup is lengthy: a full cold shader build reached the main menu in approximately 11 minutes on the development machine during the original smoke test. A later independent C: installation also recorded approximately 11 minutes for its first cold launch. Previous warm tests were roughly two minutes. These are development observations, not performance guarantees.
 - The isolated game reached a new character in the Alternate Perspective starting room. The author confirmed save/reload and normal exit; Root Builder reported clean afterward. Travel, controls, MCM configuration, final shader appearance and sustained gameplay remain release gates.
 
 ## Updates and support
@@ -59,3 +59,15 @@ Report bugs through [GitHub Issues](https://github.com/FROSTGAMINGVERSE/Origins-
 Thanks to the original mod authors, Wabbajack, Mod Organizer 2, SKSE, xEdit, DynDOLOD, and all shader/patch/animation/asset creators. The [current enabled-mod inventory](MODLIST.csv) links upstream pages. The final compiled archive report will provide exact download attribution. Startup and installer branding use AI-generated original artwork commissioned by FROST FX.
 
 Original FROST-authored configuration and documentation may be forked, modified and redistributed under [LICENSE](LICENSE). Forks must use a distinct name and provide their own support. This does not grant redistribution rights over Bethesda files or third-party mods; their original licenses apply. Wabbajack must obtain their originals from appropriate sources and reconstruct permitted modifications.
+
+## Current beta menu presentation
+
+This revision uses a static Skyrim-inspired landscape with the original wolf/dragon emblem retained on the compact launch splashes. It has no main-menu video requirement. Generated artwork uses AI-assisted image generation. First startup compiles local shaders and can be lengthy; startup performance is still under investigation.
+
+## Corrected installer and packaging
+
+The ParallaxGen source correction uses original mod/game downloads and binary reconstruction patches. It no longer downloads the hosted PG output archive. All 220,551 installed paths and file hashes match the previous candidate. The installer is 1,075,602,242 bytes (about 1.08 GB); this size includes the reconstruction patches. A fresh installation of this corrected candidate has not yet been tested.
+
+SHA256: `79be13511c118ba62cf6599d81538840eeec53a6543ef5ec9ceec56a4034c265`
+
+[Installer metadata](release/2.0.0-beta.wabbajack.meta.json) · [Current build verification](release/2.0.0-beta-verification.json)
