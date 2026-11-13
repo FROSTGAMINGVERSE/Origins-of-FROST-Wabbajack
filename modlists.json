@@ -1,0 +1,43 @@
+[
+  {
+    "$type": "ModListMetadata, Wabbajack.Lib",
+    "title": "Origins Of Frost Beta",
+    "description": "A Nordic Skyrim remaster by FROST FX, with Northern Roads, Ulvenwald/WardenWood forests, Bottled Shaders and BFCO combat. As-is 2.0.0 beta; new game required. Long first startup, retained LOD and incomplete gameplay validation are documented.",
+    "author": "FROST FX",
+    "maintainers": [
+      "github/FROSTGAMINGVERSE"
+    ],
+    "game": "skyrimspecialedition",
+    "official": false,
+    "tags": [
+      "SFW",
+      "Steam",
+      "Combat Overhaul"
+    ],
+    "nsfw": false,
+    "utility_list": false,
+    "image_contains_title": false,
+    "force_down": false,
+    "links": {
+      "$type": "Links, Wabbajack.Lib",
+      "image": "https://raw.githubusercontent.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/release/2.0.0-beta/images/origins-of-frost-v2-beta.png",
+      "readme": "https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/blob/release/2.0.0-beta/README.md",
+      "download": "https://authored-files.wabbajack.org/Origins%20Of%20Frost%20v2.0%20Beta.wabbajack_5f7a936f-a923-4b3e-842f-b0ab1a57a6b1",
+      "machineURL": "OriginsOfFrost",
+      "discordURL": "https://discord.gg/bPDhhyBej3",
+      "websiteURL": "https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/tree/release/2.0.0-beta"
+    },
+    "download_metadata": {
+      "Hash": "UTYyHvYdzSc=",
+      "Size": 1075602242,
+      "NumberOfArchives": 2111,
+      "SizeOfArchives": 186563201648,
+      "NumberOfInstalledFiles": 220551,
+      "SizeOfInstalledFiles": 250269892019,
+      "TotalSize": 436833093667
+    },
+    "version": "2.0.0",
+    "dateCreated": "2026-11-13T19:02:34.375725Z",
+    "dateUpdated": "2026-11-13T19:02:34.375725Z"
+  }
+]
