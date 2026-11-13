@@ -1,6 +1,9 @@
 # Changelog
 
-## 1.5.3 — Unreleased candidate (2026-11-13)
+## 2.0.0 Beta — In preparation (2026-11-13)
+
+- Supersedes the released 1.5.2b baseline. The author selected the current setup for an as-is beta.
+- Added compact 800x450 MO2 and 720x405 game launch splash screens, plus a new installer cover, in matching stone-and-steel Nordic branding.
 
 - Prepared the renamed Origins Of FROST profile for release.
 - Categorized 14 additions without changing audited loose-file winners.

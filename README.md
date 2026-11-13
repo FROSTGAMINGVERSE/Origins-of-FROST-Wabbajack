@@ -1,10 +1,10 @@
-# Origins Of FROST
+# Origins Of Frost v2.0
 
 A Nordic Skyrim modlist by **FROST FX**, built around Northern Roads, Ulvenwald and WardenWood, Bottled Shaders, BFCO combat, and grounded movement.
 
 ## Release status
 
-**1.5.3 is a release candidate under validation.** This documents the current build, not a tested public download or Wabbajack Featured approval. The older 1.5.2 package does not reproduce this build. See [release gates](RELEASE-STATUS.md) and [changelog](CHANGELOG.md). Use a new game for candidate testing; save compatibility is not established.
+**2.0.0 is an as-is beta.** The previous released version is 1.5.2b. The beta includes the current development setup; it has not passed complete compatibility, performance or clean-install validation and is not a Wabbajack Featured approval. See [release gates](RELEASE-STATUS.md) and [changelog](CHANGELOG.md). Use a new game for candidate testing; save compatibility is not established.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ The runtime inside the list is **1.6.1170**, using an isolated **Stock Game** fo
 
 ## Installation
 
-These steps apply once a tested 1.5.3 package is linked in the release notes.
+These steps apply to the 2.0.0 Beta package when its compiled download is available. Read the beta limitations below before installing.
 
 1. Install Skyrim through Steam, run its launcher once, and download the required owned Anniversary creations in game. Close Skyrim.
 2. Install [Wabbajack](https://www.wabbajack.org/) and select the released Origins Of FROST package.
@@ -27,7 +27,7 @@ These steps apply once a tested 1.5.3 package is linked in the release notes.
 5. Open the installed ModOrganizer.exe, select **Origins Of FROST**, and run **SKSE**.
 6. Let first-launch shader compilation and new-game initialization finish before making a manual save.
 
-Keep the supplied mod and plugin orders. Do not launch the list through Steam, use LOOT to replace its order, update individual shader/framework mods, or regenerate outputs as an ordinary installation step. The release should ship validated generated outputs.
+Keep the supplied mod and plugin orders. Do not launch the list through Steam, use LOOT to replace its order, update individual shader/framework mods, or regenerate outputs as an ordinary installation step. Existing generated outputs are retained for this beta. TexGen and DynDOLOD regeneration are deferred; expect possible LOD inconsistencies.
 
 ## Included systems
 
@@ -39,9 +39,9 @@ Keep the supplied mod and plugin orders. Do not launch the list through Steam, u
 
 Use the supplied profile INIs/configuration mods. A verified controls and MCM reference remains a release gate; no untested key bindings are asserted here.
 
-## Known issues and limits
+## Beta limitations and known issues
 
-- Grass, terrain and object LOD must match the finalized road/forest setup; earlier output is not proof of a completed 1.5.3 generation run.
+- Grass, terrain and object LOD must match the finalized road/forest setup; earlier output is not proof of a completed 2.0.0 Beta generation run.
 - Cabbage declares an unavailable lens-dirt resource with its intensity parameters set to zero. The unused-resource warning and final visual grading require verification.
 - Startup is lengthy: a full cold shader build reached the main menu in approximately 11 minutes on the development machine while the compiler was also running. Previous warm tests were roughly two minutes. These are development observations, not performance guarantees.
 - The isolated game reached a new character in the Alternate Perspective starting room. The author confirmed save/reload and normal exit; Root Builder reported clean afterward. Travel, controls, MCM configuration, final shader appearance and sustained gameplay remain release gates.
@@ -54,6 +54,6 @@ Report bugs through [GitHub Issues](https://github.com/FROSTGAMINGVERSE/Origins-
 
 ## Credits and reuse
 
-Thanks to the original mod authors, Wabbajack, Mod Organizer 2, SKSE, xEdit, DynDOLOD, and all shader/patch/animation/asset creators. The [current enabled-mod inventory](MODLIST.csv) links upstream pages. The final compiled archive report will provide exact download attribution.
+Thanks to the original mod authors, Wabbajack, Mod Organizer 2, SKSE, xEdit, DynDOLOD, and all shader/patch/animation/asset creators. The [current enabled-mod inventory](MODLIST.csv) links upstream pages. The final compiled archive report will provide exact download attribution. Startup and installer branding use AI-generated original artwork commissioned by FROST FX.
 
 Original FROST-authored configuration and documentation may be forked, modified and redistributed under [LICENSE](LICENSE). Forks must use a distinct name and provide their own support. This does not grant redistribution rights over Bethesda files or third-party mods; their original licenses apply. Wabbajack must obtain their originals from appropriate sources and reconstruct permitted modifications.

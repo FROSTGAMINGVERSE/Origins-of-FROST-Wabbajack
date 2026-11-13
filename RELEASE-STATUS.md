@@ -1,6 +1,6 @@
-# 1.5.3 release gates
+# 2.0.0 Beta release gates
 
-Preparation in progress; no tested public package published.
+The author selected the current setup for an as-is 2.0.0 Beta. Compilation is in progress; no completed beta package is verified yet. Unchecked validation items describe known beta limitations and follow-up work, rather than claiming stable release readiness.
 
 - [x] Active profile renamed; profile and instance configuration backed up.
 - [x] Enabled mods and source archives inventoried.
