@@ -11,7 +11,7 @@ A Nordic Skyrim modlist by **FROST FX**, built around Northern Roads, Ulvenwald 
 - Windows 10/11 x64 and Steam Skyrim Special Edition with the Anniversary Upgrade's required Creation Club content downloaded in game.
 - A Nexus Mods account and any free accounts required by the download sources. Premium is optional; downloads without Premium may require interaction.
 - Microsoft Visual C++ 2015–2022 Redistributable x64.
-- SSD storage. Enabled mods currently occupy approximately **242 GiB**, and source archives approximately **162 GiB**. Stock Game and temporary installation files require more space. Reserve **at least 500 GiB** for installation with downloads on the same volume; final compiler sizes will replace these planning estimates.
+- SSD storage. Compiler metadata reports approximately **261 GiB installed** and **177 GiB of source archives/game files**, approximately **438 GiB combined** before working space. Existing game files may be reused. Reserve **at least 500 GiB** when installation and downloads share a volume. Independent installation space use has not yet been measured.
 - Hardware minimums are not yet validated. 32 GiB RAM is a preparation recommendation, not a tested minimum. GPU/VRAM requirements depend on resolution and shader settings.
 
 The runtime inside the list is **1.6.1170**, using an isolated **Stock Game** folder. Users must not manually downgrade or replace files in their Steam game as a prerequisite. Automatic reconstruction from supported storefront files must pass a clean-install test before release.
