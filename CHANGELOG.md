@@ -4,6 +4,7 @@
 
 - Supersedes the released 1.5.2b baseline. The author selected the current setup for an as-is beta.
 - Added compact 800x450 MO2 and 720x405 game launch splash screens, plus a new installer cover, in matching stone-and-steel Nordic branding.
+- Added packaging companions for existing generated forest and ash material maps, with identical texture contents and reconstruction from original sources. Excluded a regenerable water-flow cache from the package.
 
 - Prepared the renamed Origins Of FROST profile for release.
 - Categorized 14 additions without changing audited loose-file winners.

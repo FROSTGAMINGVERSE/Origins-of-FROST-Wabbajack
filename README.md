@@ -36,6 +36,7 @@ Keep the supplied mod and plugin orders. Do not launch the list through Steam, u
 - Bottled Shaders 1.0.27 with the Cabbage Effects11 setup supplies the current rendering configuration.
 - BFCO, Modern Vanilla Combat, Elden Parry, and grounded movement shape combat.
 - City, quest, armor, NPC, audio, UI and immersion additions retain their supplied compatibility patches.
+- Material reconstruction companions preserve existing generated textures while allowing Wabbajack to rebuild them from original downloads and game files.
 
 Use the supplied profile INIs/configuration mods. A verified controls and MCM reference remains a release gate; no untested key bindings are asserted here.
 
