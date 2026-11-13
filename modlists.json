@@ -22,22 +22,22 @@
       "$type": "Links, Wabbajack.Lib",
       "image": "https://raw.githubusercontent.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/release/2.0.0-beta/images/origins-of-frost-v2-beta.png",
       "readme": "https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/blob/release/2.0.0-beta/README.md",
-      "download": "https://authored-files.wabbajack.org/Origins%20Of%20Frost%20v2.0%20Beta.wabbajack_5f7a936f-a923-4b3e-842f-b0ab1a57a6b1",
+      "download": "https://authored-files.wabbajack.org/Origins%20Of%20Frost%20v2.0%20Beta.wabbajack_4cd96bfb-cd00-4689-8537-8e407eda7938",
       "machineURL": "OriginsOfFrost",
       "discordURL": "https://discord.gg/bPDhhyBej3",
       "websiteURL": "https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/tree/release/2.0.0-beta"
     },
     "download_metadata": {
-      "Hash": "UTYyHvYdzSc=",
-      "Size": 1075602242,
-      "NumberOfArchives": 2111,
-      "SizeOfArchives": 186563201648,
-      "NumberOfInstalledFiles": 220551,
-      "SizeOfInstalledFiles": 250269892019,
-      "TotalSize": 436833093667
+      "Hash": "8hFkmN0Skv4=",
+      "Size": 995218900,
+      "NumberOfArchives": 2107,
+      "SizeOfArchives": 186083552118,
+      "NumberOfInstalledFiles": 218808,
+      "SizeOfInstalledFiles": 249632587823,
+      "TotalSize": 435716139941
     },
     "version": "2.0.0",
     "dateCreated": "2026-11-13T19:02:34.375725Z",
-    "dateUpdated": "2026-11-13T19:02:34.375725Z"
+    "dateUpdated": "2026-11-13T20:13:45.512613Z"
   }
 ]

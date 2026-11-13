@@ -2,18 +2,20 @@
 
 A Nordic Skyrim modlist by **FROST FX**.
 
-## Origins Of Frost Beta - 2.0.0
+## Origins Of Frost Beta — 2.0.0
 
-This is an **as-is beta**, succeeding the 1.5.2b baseline. Start a new game. Full gameplay, performance and final LOD validation remain outstanding.
+Start a new game. Broad gameplay, startup performance and final LOD validation remain beta limitations.
 
-- [Download the corrected Wabbajack installer](https://authored-files.wabbajack.org/Origins%20Of%20Frost%20v2.0%20Beta.wabbajack_5f7a936f-a923-4b3e-842f-b0ab1a57a6b1) - 1.08 GB. Open the downloaded .wabbajack file in Wabbajack.
+- [Download the corrected Wabbajack installer](https://authored-files.wabbajack.org/Origins%20Of%20Frost%20v2.0%20Beta.wabbajack_4cd96bfb-cd00-4689-8537-8e407eda7938) — 995 MB.
 - [Installation guide and known issues](https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/blob/release/2.0.0-beta/README.md)
-- [Current mod inventory](https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/blob/release/2.0.0-beta/MODLIST.csv)
-- [Release validation status](https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/blob/release/2.0.0-beta/RELEASE-STATUS.md)
-- [Report an issue](https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/issues) / [Community Discord](https://discord.gg/bPDhhyBej3)
+- [Current inventory](https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/blob/release/2.0.0-beta/MODLIST.csv)
+- [Validation and compliance status](https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/blob/release/2.0.0-beta/RELEASE-STATUS.md)
+- [Free issue support](https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/issues) / [Discord](https://discord.gg/bPDhhyBej3)
 
-Unofficial Wabbajack gallery registration is being submitted. The list will appear under **Show Unofficial Lists** after Wabbajack approves the repository; it is not Featured.
+The 13 November compliance correction removes four legacy repack dependencies, sources animations from original downloads and reconstructs retained armor/combat/Markarth overrides. Regenerable cell caches and the unverified experimental Optiscaler DLSS5 bundle are excluded. GPL notices and editable native binding declarations are included. The new configuration repair file is [on Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/143468?tab=files&file_id=838122); normal Wabbajack installs already include its settings.
 
-The installer reconstructs ParallaxGen changes from original downloads. All 220,551 installed paths/hashes match the previous candidate. A fresh installation of this corrected package remains untested. Long first startup and retained LOD are documented beta limitations.
+The compiled modlist is **CC BY-NC-SA 4.0**. The narrow MIT grant in [LICENSE](LICENSE) applies only to original FROST configuration/documentation. Third-party components retain their own terms. Download, beta access and support are free; donations never gate access.
 
-SHA256: 79be13511c118ba62cf6599d81538840eeec53a6543ef5ec9ceec56a4034c265
+The unofficial gallery submission [PR3949](https://github.com/wabbajack-tools/mod-lists/pull/3949) awaits maintainer approval. Bot checks validate metadata, not every asset permission or runtime behavior. Archived historical Nexus bundles remain retained by Nexus and are not dependencies of this corrected build. Permanent removal was not requested by the author.
+
+SHA256: `4b5ad1f42e40a6eaca3f5044ded4741920fd6b453e5cd61743217538759400fd`
