@@ -52,4 +52,4 @@ Featured status is granted by Wabbajack after review, not by compilation.
 - Standard 16:9 and 21:9 3440×1440 profiles are included; default selection remains standard. Both use the same plugin/load order.
 - Update installation into the existing Main Test folder completed successfully using cached sources. Native file verification found **0 errors**; four existing save files remained byte-identical.
 - This revision has not been installed into a new empty folder or visually tested at 21:9 in game. Broad gameplay, startup performance and final TexGen/DynDOLOD remain pending.
-- Unofficial registration remains at PR3949 awaiting Wabbajack maintainer review. Uploading a package does not grant gallery approval or Featured status.
+- Unofficial registration remains at PR3950 awaiting Wabbajack maintainer review. Uploading a package does not grant gallery approval or Featured status.

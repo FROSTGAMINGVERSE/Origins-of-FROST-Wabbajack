@@ -2,6 +2,8 @@
 
 ## 2.0.0 Beta — Two-profile installer (2026-11-14)
 
+- Submission checks passed again. The upstream bot closed PR3949 during its branch refresh; replacement PR3950 is open for maintainer review.
+
 - Added a separate 21:9 profile at 3440×1440, with native Vel’dun UI variants and profile-specific display settings. The standard 16:9 profile remains the default; gameplay and plugin order are shared.
 - Updated the public installer link and its exact metadata/checksum for the 995,331,986-byte package.
 - Tested a Wabbajack update of the existing Main Test installation using cached downloads: installer exit 0, native verifier 0 errors. All four pre-existing save files remained byte-identical.
