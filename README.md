@@ -16,7 +16,7 @@ The 13 November compliance correction removes four legacy repack dependencies, s
 
 The compiled modlist is **CC BY-NC-SA 4.0**. The narrow MIT grant in [LICENSE](LICENSE) applies only to original FROST configuration/documentation. Third-party components retain their own terms. Download, beta access and support are free; donations never gate access.
 
-The unofficial gallery submission [PR3949](https://github.com/wabbajack-tools/mod-lists/pull/3949) awaits maintainer approval. Bot checks validate metadata, not every asset permission or runtime behavior. Archived historical Nexus bundles remain retained by Nexus and are not dependencies of this corrected build. Permanent removal was not requested by the author.
+The unofficial gallery submission [PR3950](https://github.com/wabbajack-tools/mod-lists/pull/3950) awaits maintainer approval. Bot checks validate metadata, not every asset permission or runtime behavior. Archived historical Nexus bundles remain retained by Nexus and are not dependencies of this corrected build. Permanent removal was not requested by the author.
 
 A separate Wabbajack installation using the existing cache completed successfully; the native installed-file verifier reported **0 errors**. This does not establish new runtime/save-load or broad gameplay validation.
 
