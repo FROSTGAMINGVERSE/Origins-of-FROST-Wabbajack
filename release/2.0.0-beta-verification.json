@@ -1,103 +1,26 @@
 {
-  "sha256": "4b5ad1f42e40a6eaca3f5044ded4741920fd6b453e5cd61743217538759400fd",
-  "bytes": 995218900,
-  "CRCVerified": true,
-  "forbiddenArchivesAbsent": true,
-  "archiveCount": 2107,
-  "installedFiles": 218808,
-  "reconstructions": [
-    {
-      "target": "mods\\FROST - Combat Binding Reconstruction\\Scripts\\Accuracy.pex",
-      "type": "PatchedFromArchive",
-      "source": "Accuracy - MCM menu 187578 MCM-01 2026-08-07T23-03Z CmfxYjTwZ.zip",
-      "path": [
-        "Accuracy - MCM.bsa"
-      ]
-    },
-    {
-      "target": "mods\\FROST - Combat Binding Reconstruction\\Scripts\\CoreImpactFramework.pex",
-      "type": "PatchedFromArchive",
-      "source": "Accuracy - MCM menu 187578 MCM-01 2026-08-07T23-03Z CmfxYjTwZ.zip",
-      "path": [
-        "Accuracy - MCM.bsa",
-        "interface\\accuracy\\logo.swf"
-      ]
-    },
-    {
-      "target": "mods\\FROST - Combat Binding Reconstruction\\Scripts\\DynamicArmorPhysics.pex",
-      "type": "PatchedFromArchive",
-      "source": "Accuracy - MCM menu 187578 MCM-01 2026-08-07T23-03Z CmfxYjTwZ.zip",
-      "path": [
-        "Accuracy - MCM.bsa"
-      ]
-    },
-    {
-      "target": "mods\\FROST - Markarth Patch Reconstruction\\JKs Markarth Outskirts - LaWF patch.esp",
-      "type": "PatchedFromArchive",
-      "source": "JK's Markarth Outskirts Patch Collection-95750-1-2-1-1776200529.rar",
-      "path": [
-        "JKs Markarth Outskirts - LotD patch.esp"
-      ]
-    },
-    {
-      "target": "mods\\FROST - Volkihar Source Reconstruction\\meshes\\armor\\volkiharknight\\volkiharknightcuirassAbysswalkerf_0.nif",
-      "type": "PatchedFromArchive",
-      "source": "Volkihar Knight SE 1.0.0-4806-1-0-0-1547251285.zip",
-      "path": [
-        "Data\\Volkihar Knight.bsa",
-        "meshes\\armor\\volkiharknight\\volkiharknightcuirassf_0.nif"
-      ]
-    },
-    {
-      "target": "mods\\FROST - Volkihar Source Reconstruction\\meshes\\armor\\volkiharknight\\volkiharknightcuirassAbysswalkerf_1.nif",
-      "type": "PatchedFromArchive",
-      "source": "Volkihar Knight SE 1.0.0-4806-1-0-0-1547251285.zip",
-      "path": [
-        "Data\\Volkihar Knight.bsa",
-        "meshes\\armor\\volkiharknight\\volkiharknightcuirassf_1.nif"
-      ]
-    },
-    {
-      "target": "mods\\FROST - Volkihar Source Reconstruction\\meshes\\armor\\volkiharknight\\volkiharknightcuirassAssassinf_0.nif",
-      "type": "PatchedFromArchive",
-      "source": "Volkihar Knight SE 1.0.0-4806-1-0-0-1547251285.zip",
-      "path": [
-        "Data\\Volkihar Knight.bsa",
-        "meshes\\armor\\volkiharknight\\volkiharknightcuirassf_0.nif"
-      ]
-    },
-    {
-      "target": "mods\\FROST - Volkihar Source Reconstruction\\meshes\\armor\\volkiharknight\\volkiharknightcuirassAssassinf_1.nif",
-      "type": "PatchedFromArchive",
-      "source": "Volkihar Knight SE 1.0.0-4806-1-0-0-1547251285.zip",
-      "path": [
-        "Data\\Volkihar Knight.bsa",
-        "meshes\\armor\\volkiharknight\\volkiharknightcuirassf_1.nif"
-      ]
-    }
+  "sha256": "0d880aeca6035b0e04401cb61ce1ae4353f7d0165e9651c6269f1e5c6f7912eb",
+  "bytes": 995331986,
+  "profiles": [
+    "Origins Of FROST",
+    "Origins Of FROST - 21x9 (3440x1440)"
   ],
-  "note": "Static packaging/source verification, not a fresh install or gameplay test.",
-  "cleanInstall": {
-    "verifiedUTC": "2026-11-13T20:20:01.777882+00:00",
-    "packageSHA256": "4b5ad1f42e40a6eaca3f5044ded4741920fd6b453e5cd61743217538759400fd",
-    "installFolder": "C:/Games/Modded/Skyrim Compliance Test",
-    "downloads": "C:/Games/Modded/Skyrim Test Downloads",
-    "finishedInstallation": true,
-    "installDurationSeconds": 721.19,
+  "ultrawideResolution": "3440x1440",
+  "UIOverrideDirectives": 43,
+  "nativeAssetsNotInlined": true,
+  "pluginOrderIdentical": true,
+  "zipCRCVerified": true,
+  "runtimeVisualValidation": false,
+  "downloadURL": "https://authored-files.wabbajack.org/Origins%20Of%20Frost%20v2.0%20Beta.wabbajack_7d92f762-bc2b-4c4c-9760-4bdd99c5e6e8",
+  "updateInstall": {
+    "date": "2026-11-14",
+    "installerExitCode": 0,
+    "nativeVerifierExitCode": 0,
     "nativeVerifierErrors": 0,
-    "gameplayTested": false,
-    "latestStorefrontTested": false,
-    "TexGenDynDOLODRegenerated": false
+    "usedExistingDownloads": true,
+    "saveFilesUnchanged": 4,
+    "freshEmptyFolderInstall": false
   },
-  "winnerVerification": {
-    "oldWinners": 215280,
-    "newWinners": 213532,
-    "unchangedWinningFiles": 213529,
-    "intentionalRemovedCount": 1750,
-    "intentionalChangedPaths": [
-      "source\\scripts\\accuracy.psc"
-    ],
-    "unexpectedChanges": [],
-    "scope": "MO2 loose-file priority equivalence; not plugin record or runtime validation."
-  }
+  "gameplayTested": false,
+  "TexGenDynDOLODRegenerated": false
 }

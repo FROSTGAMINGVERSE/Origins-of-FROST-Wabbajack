@@ -14,17 +14,17 @@ A Nordic Skyrim modlist by **FROST FX**, built around Northern Roads, Ulvenwald 
 - SSD storage. The corrected package describes approximately **233 GiB installed** and **174 GiB of source archives/game files**, approximately **407 GiB combined** before working space. Existing game files may be reused. Reserve **at least 500 GiB** when installation and downloads share a volume. Independent installation space use has not yet been measured.
 - Hardware minimums are not yet validated. 32 GiB RAM is a preparation recommendation, not a tested minimum. GPU/VRAM requirements depend on resolution and shader settings.
 
-The runtime inside the list is **1.6.1170**, using an isolated **Stock Game** folder. Users must not manually downgrade or replace files in their Steam game as a prerequisite. Automatic reconstruction from supported storefront files must pass a clean-install test before release.
+The list targets Skyrim runtime **1.6.1170**. Root Builder manages the launch-time root files; launch SKSE through MO2. Do not manually downgrade or replace Steam game files as a prerequisite. Current-storefront reconstruction remains a validation gate.
 
 ## Installation
 
-The corrected 2.0.0 Beta installer is [available from the Wabbajack CDN](https://authored-files.wabbajack.org/Origins%20Of%20Frost%20v2.0%20Beta.wabbajack_4cd96bfb-cd00-4689-8537-8e407eda7938). Unofficial gallery registration is being submitted; direct installation is available while review is pending. Read the beta limitations before installing.
+The corrected 2.0.0 Beta installer is [available from the Wabbajack CDN](https://authored-files.wabbajack.org/Origins%20Of%20Frost%20v2.0%20Beta.wabbajack_7d92f762-bc2b-4c4c-9760-4bdd99c5e6e8). Unofficial gallery registration is being submitted; direct installation is available while review is pending. Read the beta limitations before installing.
 
 1. Install Skyrim through Steam, run its launcher once, and download the required owned Anniversary creations in game. Close Skyrim.
 2. Install [Wabbajack](https://www.wabbajack.org/). Once the repository is approved, enable **Show Unofficial Lists**, select **Origins Of Frost Beta** (version **2.0.0**), and begin installation. A direct installer download can also be opened in Wabbajack.
 3. Choose an empty install folder outside Program Files, Steam's game directory, and OneDrive. Choose a downloads location with enough space; it may be on another drive.
 4. Sign in to requested download services and finish installation. Resolve errors before launching.
-5. Open the installed ModOrganizer.exe, select **Origins Of FROST**, and run **SKSE**.
+5. Open the installed ModOrganizer.exe, choose the standard **Origins Of FROST** or **Origins Of FROST - 21x9 (3440x1440)** profile, and run **SKSE**.
 6. Let first-launch shader compilation and new-game initialization finish before making a manual save.
 
 Keep the supplied mod and plugin orders. Do not launch the list through Steam, use LOOT to replace its order, update individual shader/framework mods, or regenerate outputs as an ordinary installation step. Existing generated outputs are retained for this beta. TexGen and DynDOLOD regeneration are deferred; expect possible LOD inconsistencies.
@@ -66,7 +66,7 @@ This revision uses a static Skyrim-inspired landscape with the original wolf/dra
 
 ## Corrected installer and packaging
 
-The current installer is **995,218,900 bytes** (995 MB) and contains 218,808 installed file directives. It reconstructs ParallaxGen and retained armor/combat/Markarth modifications from original downloads, and no longer requires the old Custom Patch, Pandora, Leap Of Faith Fix or Optiscaler bundle archives. Raw animations resolve to original sources; generated behaviors remain separate.
+The current installer is **995,331,986 bytes** (995 MB) and contains 218,864 installed file directives. It reconstructs ParallaxGen and retained armor/combat/Markarth modifications from original downloads, and no longer requires the old Custom Patch, Pandora, Leap Of Faith Fix or Optiscaler bundle archives. Raw animations resolve to original sources; generated behaviors remain separate.
 
 The experimental Optiscaler DLSS5 bundle is excluded from the release profile pending provenance/licence/runtime verification. Faster Cell Lookup regenerates its own cell-offset cache on first launch; first startup can therefore be longer. The old local files are retained for author rollback, outside the compiler source pool.
 
@@ -74,8 +74,19 @@ Editable Papyrus native-interface declarations and GPL-3.0 notices are included.
 
 Legacy bundles are archived on Nexus. Archiving does not permanently remove their contents or establish historical redistribution permission. The author elected new uploads rather than contacting support for permanent withdrawal. These retired bundles are absent from this build's dependency set.
 
-A separate clean installation completed in 12 minutes 1 second using the existing cache, and Wabbajack’s native installed-file verifier reported **0 errors**. See [RELEASE-STATUS.md](RELEASE-STATUS.md). Broad gameplay, a new runtime/save-load test after removing the experimental upscaler, latest-storefront validation and final TexGen/DynDOLOD remain deferred.
+The previous single-profile package completed a separate clean installation in 12 minutes 1 second using the existing cache, and Wabbajack’s native installed-file verifier reported **0 errors**. See [RELEASE-STATUS.md](RELEASE-STATUS.md). Broad gameplay, a new runtime/save-load test after removing the experimental upscaler, latest-storefront validation and final TexGen/DynDOLOD remain deferred.
 
-SHA256: `4b5ad1f42e40a6eaca3f5044ded4741920fd6b453e5cd61743217538759400fd`
+SHA256: `0d880aeca6035b0e04401cb61ce1ae4353f7d0165e9651c6269f1e5c6f7912eb`
 
 [Installer metadata](release/2.0.0-beta.wabbajack.meta.json) · [Build verification](release/2.0.0-beta-verification.json)
+
+## Display profiles in this installer
+
+After Wabbajack finishes, open Mod Organizer 2 and use its **Profile** dropdown:
+
+- **Origins Of FROST** — standard 16:9 (default).
+- **Origins Of FROST - 21x9 (3440x1440)** — ultrawide, with native Vel’dun UI variants and 3440×1440 display settings.
+
+Both profiles install together. This is a choice in MO2 after installation, not a Wabbajack wizard option. The profiles share gameplay/plugin order and use separate local saves. Start a new character for beta testing. The ultrawide interface still needs in-game visual checks.
+
+The 14 November two-profile build passed an update-install test using existing cached downloads, followed by Wabbajack’s native file verifier with **0 errors**. All four existing save files remained unchanged. A fresh empty-folder install of this revision and broader runtime testing remain pending. Root Builder manages the launch-time root files; launch **SKSE through MO2**.

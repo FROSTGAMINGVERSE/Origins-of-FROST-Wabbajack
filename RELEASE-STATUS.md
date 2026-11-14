@@ -45,3 +45,11 @@ Featured status is granted by Wabbajack after review, not by compilation.
 - Public CDN definition and sampled chunk hashes match; all 475 upload responses matched.
 - Nexus AI disclosures and standalone artwork presentation saved. Resources opted out of Donation Points. Clean optional configuration repair pack: mod143468/file838122. Archived historical content is not fully withdrawn; author declined contacting Nexus support. This remains a historical-hosting limitation, not a dependency of the corrected package.
 - Fresh installation into C:/Games/Modded/Skyrim Compliance Test finished in 12 minutes 1 second using the existing downloads cache. Wabbajack native verify-modlist-install reported **0 errors**. No new gameplay, save/load, latest-storefront or final LOD validation is claimed.
+
+## Current two-profile build — 14 November 2026
+
+- Current package: 995,331,986 bytes; 2,107 source archives; 218,864 installed directives.
+- Standard 16:9 and 21:9 3440×1440 profiles are included; default selection remains standard. Both use the same plugin/load order.
+- Update installation into the existing Main Test folder completed successfully using cached sources. Native file verification found **0 errors**; four existing save files remained byte-identical.
+- This revision has not been installed into a new empty folder or visually tested at 21:9 in game. Broad gameplay, startup performance and final TexGen/DynDOLOD remain pending.
+- Unofficial registration remains at PR3949 awaiting Wabbajack maintainer review. Uploading a package does not grant gallery approval or Featured status.
