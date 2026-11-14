@@ -2,7 +2,7 @@
   {
     "$type": "ModListMetadata, Wabbajack.Lib",
     "title": "Origins Of Frost Beta",
-    "description": "A Nordic Skyrim remaster by FROST FX, with Northern Roads, Ulvenwald/WardenWood forests, Bottled Shaders and BFCO combat. As-is 2.0.0 beta; new game required. Long first startup, retained LOD and incomplete gameplay validation are documented.",
+    "description": "A Nordic Skyrim remaster by FROST FX with Northern Roads, Ulvenwald/WardenWood, Bottled Shaders and BFCO combat. Includes standard 16:9 and 3440x1440 ultrawide profiles. Early beta; new game required. Long first startup and unfinished gameplay/LOD validation.",
     "author": "FROST FX",
     "maintainers": [
       "github/FROSTGAMINGVERSE"
@@ -22,22 +22,22 @@
       "$type": "Links, Wabbajack.Lib",
       "image": "https://raw.githubusercontent.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/release/2.0.0-beta/images/origins-of-frost-v2-beta.png",
       "readme": "https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/blob/release/2.0.0-beta/README.md",
-      "download": "https://authored-files.wabbajack.org/Origins%20Of%20Frost%20v2.0%20Beta.wabbajack_4cd96bfb-cd00-4689-8537-8e407eda7938",
+      "download": "https://authored-files.wabbajack.org/Origins%20Of%20Frost%20v2.0%20Beta.wabbajack_7d92f762-bc2b-4c4c-9760-4bdd99c5e6e8",
       "machineURL": "OriginsOfFrost",
       "discordURL": "https://discord.gg/bPDhhyBej3",
       "websiteURL": "https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/tree/release/2.0.0-beta"
     },
     "download_metadata": {
-      "Hash": "8hFkmN0Skv4=",
-      "Size": 995218900,
+      "Hash": "0k2KG+9MquA=",
+      "Size": 995331986,
       "NumberOfArchives": 2107,
       "SizeOfArchives": 186083552118,
-      "NumberOfInstalledFiles": 218808,
-      "SizeOfInstalledFiles": 249632587823,
-      "TotalSize": 435716139941
+      "NumberOfInstalledFiles": 218864,
+      "SizeOfInstalledFiles": 249634330777,
+      "TotalSize": 435717882895
     },
     "version": "2.0.0",
     "dateCreated": "2026-11-13T19:02:34.375725Z",
-    "dateUpdated": "2026-11-13T20:13:45.512613Z"
+    "dateUpdated": "2026-11-14T09:56:10.885152Z"
   }
 ]
