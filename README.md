@@ -1,92 +1,60 @@
-# Origins Of Frost v2.0
+# Origins Of Frost 2.0.2 Beta
 
-A Nordic Skyrim modlist by **FROST FX**, built around Northern Roads, Ulvenwald and WardenWood, Bottled Shaders, BFCO combat, and grounded movement.
+A Nordic Skyrim modlist by **FROST FX**, built around Northern Roads, Ulvenwald and WardenWood, Bottled Shaders, BFCO combat and grounded movement.
 
-## Release status
-
-**2.0.0 is an as-is beta.** The previous released version is 1.5.2b. The beta includes the current development setup; it has not passed complete compatibility, performance or clean-install validation and is not a Wabbajack Featured approval. See [release gates](RELEASE-STATUS.md) and [changelog](CHANGELOG.md). Use a new game for candidate testing; save compatibility is not established.
+**Working candidate: the new installer is not published yet.** Native generation, runtime review and a fresh installation are separate checks. Their results will be recorded for this exact package before publication. Earlier installers and historical tests do not establish acceptance of this revision. See [release status](RELEASE-STATUS.md) and the [changelog](CHANGELOG.md).
 
 ## Requirements
 
-- Windows 10/11 x64 and Steam Skyrim Special Edition with the Anniversary Upgrade's required Creation Club content downloaded in game.
-- A Nexus Mods account and any free accounts required by the download sources. Premium is optional; downloads without Premium may require interaction.
-- Microsoft Visual C++ 2015–2022 Redistributable x64.
-- SSD storage. The corrected package describes approximately **233 GiB installed** and **174 GiB of source archives/game files**, approximately **407 GiB combined** before working space. Existing game files may be reused. Reserve **at least 500 GiB** when installation and downloads share a volume. Independent installation space use has not yet been measured.
-- Hardware minimums are not yet validated. 32 GiB RAM is a preparation recommendation, not a tested minimum. GPU/VRAM requirements depend on resolution and shader settings.
+- Windows 10/11 x64 and Steam Skyrim Special Edition with the required owned Anniversary Upgrade creations downloaded in game.
+- A Nexus Mods account and Microsoft Visual C++ 2015â€“2022 Redistributable x64. Nexus Premium is optional; free downloads can require interaction.
+- SSD space for the installed list, source archives and installation workspace. Exact sizes accompany the validated installer.
+- Hardware requirements and sustained performance remain under testing; resolution and shader settings affect memory use and frame rate.
 
-The list targets Skyrim runtime **1.6.1170**. Root Builder manages the launch-time root files; launch SKSE through MO2. Do not manually downgrade or replace Steam game files as a prerequisite. Current-storefront reconstruction remains a validation gate.
+The list uses an isolated **Skyrim 1.6.1170** runtime. Wabbajack reconstructs the supplied game files from owned sources. Do not manually downgrade Steam as an installation prerequisite. **Start a new game:** save compatibility is not established.
 
 ## Installation
 
-The corrected 2.0.0 Beta installer is [available from the Wabbajack CDN](https://authored-files.wabbajack.org/Origins%20Of%20Frost%20v2.0%20Beta.wabbajack_7d92f762-bc2b-4c4c-9760-4bdd99c5e6e8). Unofficial gallery registration is being submitted; direct installation is available while review is pending. Read the beta limitations before installing.
+1. Install Skyrim through Steam, run its launcher once and download the required owned Anniversary creations in game. Close Skyrim.
+2. Open the matching Origins Of Frost installer in [Wabbajack](https://www.wabbajack.org/).
+3. Choose an empty installation folder outside Program Files, Steam and OneDrive. Choose a downloads folder with enough free space.
+4. Sign in to the requested download services and let installation finish. Resolve installation errors before launching.
+5. Open the installed `ModOrganizer.exe`, select a display profile and run **SKSE**. Root Builder manages the launch-time game-root files.
+6. Allow first-launch shader compilation and new-game initialization to finish before making a manual save.
 
-1. Install Skyrim through Steam, run its launcher once, and download the required owned Anniversary creations in game. Close Skyrim.
-2. Install [Wabbajack](https://www.wabbajack.org/). Once the repository is approved, enable **Show Unofficial Lists**, select **Origins Of Frost Beta** (version **2.0.0**), and begin installation. A direct installer download can also be opened in Wabbajack.
-3. Choose an empty install folder outside Program Files, Steam's game directory, and OneDrive. Choose a downloads location with enough space; it may be on another drive.
-4. Sign in to requested download services and finish installation. Resolve errors before launching.
-5. Open the installed ModOrganizer.exe, choose the standard **Origins Of FROST** or **Origins Of FROST - 21x9 (3440x1440)** profile, and run **SKSE**.
-6. Let first-launch shader compilation and new-game initialization finish before making a manual save.
+Both profiles install together and share gameplay and plugin order:
 
-Keep the supplied mod and plugin orders. Do not launch the list through Steam, use LOOT to replace its order, update individual shader/framework mods, or regenerate outputs as an ordinary installation step. Existing generated outputs are retained for this beta. TexGen and DynDOLOD regeneration are deferred; expect possible LOD inconsistencies.
+| MO2 profile | Display configuration |
+| --- | --- |
+| Origins Of Frost | Standard 16:9, 3840 Ã— 2160 |
+| Origins of Frost 21x9 | Ultrawide, 3440 Ã— 1440, with its interface configuration |
 
-## Included systems
+Choose the profile in MO2 after installation. Keep the supplied mod and plugin orders. Individual mod updates, automatic LOOT sorting and output regeneration are maintainer changes that require renewed validation. Players receive the completed outputs and do not need to run the generators.
 
-- Northern Roads and its compatibility family receive late worldspace priority.
-- Ulvenwald and WardenWood provide the forest setup.
-- Bottled Shaders 1.0.27 with the Cabbage Effects11 setup supplies the current rendering configuration.
-- BFCO, Modern Vanilla Combat, Elden Parry, and grounded movement shape combat.
-- City, quest, armor, NPC, audio, UI and immersion additions retain their supplied compatibility patches.
-- Material reconstruction companions preserve existing generated textures while allowing Wabbajack to rebuild them from original downloads and game files.
-- The release omits fully overwritten loose-file copies, hidden files, backups and optional developer symbols. The original authoring instance retains those files; keep the supplied enabled mod order when playing the release.
+## Included setup
 
-Use the supplied profile INIs/configuration mods. A verified controls and MCM reference remains a release gate; no untested key bindings are asserted here.
+The character defaults use a fixed Nordic female body preset, vanilla female underwear, HIMBO Natural with linen underwear, and the accepted character and clothing physics settings. OBody distribution is retired. Character mesh, underwear and skin settings are protected during scenery maintenance.
 
-## Beta limitations and known issues
+The scenery rebuild updates WardenWood and its matching 3D LOD resources, Forest Fragments and its Falkreath patch, Ulvenwald snow-log fixes and DynDOLOD runtime support. Bark and pine-branch fallbacks cover intentional vanilla texture paths. Compatibility repairs retain the original source downloads as installer dependencies.
 
-- Grass, terrain and object LOD must match the finalized road/forest setup; earlier output is not proof of a completed 2.0.0 Beta generation run.
-- Cabbage declares an unavailable lens-dirt resource with its intensity parameters set to zero. The unused-resource warning and final visual grading require verification.
-- Startup is lengthy: a full cold shader build reached the main menu in approximately 11 minutes on the development machine during the original smoke test. A later independent C: installation also recorded approximately 11 minutes for its first cold launch. Previous warm tests were roughly two minutes. These are development observations, not performance guarantees.
-- The isolated game reached a new character in the Alternate Perspective starting room. The author confirmed save/reload and normal exit; Root Builder reported clean afterward. Travel, controls, MCM configuration, final shader appearance and sustained gameplay remain release gates.
+The maintenance sequence is **source repairs and deliberate plugin cleaning â†’ PGPatcher â†’ xLODGen terrain only â†’ TexGen â†’ DynDOLOD**. Terrain generation excludes objects, trees and occlusion. DynDOLOD handles object and tree LOD, dynamic LOD, optimized grass assets and the separate occlusion plugin for supported worlds.
 
-## Updates and support
+Grass LOD follows Community Shaders Grass Optimizations: TexGen HD Grass **Direct 0, Ambient 100, Smoothness 0**, followed by DynDOLOD CS Optimized Grass assets. Nearby grass lighting is preserved. Bruma retains its author-specific LOD and occlusion handling, with its compatibility resources winning after generated outputs.
 
-Read the changelog before updating, back up saves/settings, and keep personal additions separate. Reproduce issues on the supported setup where possible.
+Maintenance tools have readable MO2 labels. Their versions, original downloads and settings are documented in `Tools/README.txt`, `Tools/SOURCES.json` and the [tree and LOD maintenance notes](compatibility/TREE-LOD-MAINTENANCE.md). Local development connectors, credentials, logs and shader caches are excluded from the player package.
 
-Report bugs through [GitHub Issues](https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/issues), including release version, relevant errors, location and reproduction steps. Redact personal paths/account details before posting logs. The existing [community Discord](https://discord.gg/bPDhhyBej3) is an additional contact route. Support for the released list is not paywalled.
+## Beta testing and support
+
+Generator completion, native plugin checks, file verification and runtime tests cover different failure modes. They do not establish that every quest, location or gameplay combination is free of bugs. The release record identifies tested worlds, save/load checks and remaining limitations.
+
+First startup can be lengthy while shaders and caches build. Historical cold launches took approximately eleven minutes on the development machine; this is an observation, not a performance guarantee. Allow progressing initialization to finish.
+
+Report reproducible issues through [GitHub Issues](https://github.com/FROSTGAMINGVERSE/Origins-of-FROST-Wabbajack/issues), including the release version, location, error and reproduction steps. Remove personal paths and account details before posting logs. The existing [community Discord](https://discord.gg/bPDhhyBej3) is another support route. The list and support are free; donations never gate access.
 
 ## Credits and reuse
 
-Thanks to the original mod authors, Wabbajack, Mod Organizer 2, SKSE, xEdit, DynDOLOD, and all shader/patch/animation/asset creators. The [current enabled-mod inventory](MODLIST.csv) links upstream pages. The final compiled archive report will provide exact download attribution. Startup and installer branding use AI-generated original artwork commissioned by FROST FX.
+Thanks to the original mod authors and the Wabbajack, Mod Organizer 2, SKSE, xEdit, DynDOLOD, shader, patch, animation and asset developers. The [enabled-mod inventory](MODLIST.csv), source records and compiled archive report provide upstream attribution.
 
-The compiled Wabbajack modlist is **CC BY-NC-SA 4.0**. The separate MIT grant in [LICENSE](LICENSE) covers only original FROST-authored configuration and documentation. Forks must use a distinct name and provide their own support. Bethesda files and third-party mods retain their original terms; neither grant permits rehosting their assets without permission. The list, beta builds and support are free; donations never gate access.
+Standalone FROST menu artwork is on [Nexus mod135911](https://www.nexusmods.com/skyrimspecialedition/mods/135911). Owned list configurations are on [Nexus mod143468](https://www.nexusmods.com/skyrimspecialedition/mods/143468); the matching installer installs them automatically. The artwork uses AI-assisted image generation, disclosed on its source pages.
 
-## Current beta menu presentation
-
-This revision uses a static Skyrim-inspired landscape with the original wolf/dragon emblem retained on the compact launch splashes. It has no main-menu video requirement. Generated artwork uses AI-assisted image generation. First startup compiles local shaders and can be lengthy; startup performance is still under investigation.
-
-## Corrected installer and packaging
-
-The current installer is **995,331,986 bytes** (995 MB) and contains 218,864 installed file directives. It reconstructs ParallaxGen and retained armor/combat/Markarth modifications from original downloads, and no longer requires the old Custom Patch, Pandora, Leap Of Faith Fix or Optiscaler bundle archives. Raw animations resolve to original sources; generated behaviors remain separate.
-
-The experimental Optiscaler DLSS5 bundle is excluded from the release profile pending provenance/licence/runtime verification. Faster Cell Lookup regenerates its own cell-offset cache on first launch; first startup can therefore be longer. The old local files are retained for author rollback, outside the compiler source pool.
-
-Editable Papyrus native-interface declarations and GPL-3.0 notices are included. The wallpaper/splashes disclose AI generation on Nexus. The standalone artwork page is mod135911; list-specific outputs and the optional clean BFCO/MVC/TCC repair configuration pack are on mod143468. The installer already installs those settings.
-
-Legacy bundles are archived on Nexus. Archiving does not permanently remove their contents or establish historical redistribution permission. The author elected new uploads rather than contacting support for permanent withdrawal. These retired bundles are absent from this build's dependency set.
-
-The previous single-profile package completed a separate clean installation in 12 minutes 1 second using the existing cache, and Wabbajack’s native installed-file verifier reported **0 errors**. See [RELEASE-STATUS.md](RELEASE-STATUS.md). Broad gameplay, a new runtime/save-load test after removing the experimental upscaler, latest-storefront validation and final TexGen/DynDOLOD remain deferred.
-
-SHA256: `0d880aeca6035b0e04401cb61ce1ae4353f7d0165e9651c6269f1e5c6f7912eb`
-
-[Installer metadata](release/2.0.0-beta.wabbajack.meta.json) · [Build verification](release/2.0.0-beta-verification.json)
-
-## Display profiles in this installer
-
-After Wabbajack finishes, open Mod Organizer 2 and use its **Profile** dropdown:
-
-- **Origins Of FROST** — standard 16:9 (default).
-- **Origins Of FROST - 21x9 (3440x1440)** — ultrawide, with native Vel’dun UI variants and 3440×1440 display settings.
-
-Both profiles install together. This is a choice in MO2 after installation, not a Wabbajack wizard option. The profiles share gameplay/plugin order and use separate local saves. Start a new character for beta testing. The ultrawide interface still needs in-game visual checks.
-
-The 14 November two-profile build passed an update-install test using existing cached downloads, followed by Wabbajack’s native file verifier with **0 errors**. All four existing save files remained unchanged. A fresh empty-folder install of this revision and broader runtime testing remain pending. Root Builder manages the launch-time root files; launch **SKSE through MO2**.
+The compiled Wabbajack modlist is **CC BY-NC-SA 4.0**. The separate MIT grant in [LICENSE](LICENSE) covers original FROST-authored configuration and documentation only. Bethesda files and third-party mods retain their original terms. These grants do not authorize rehosting their assets. Processed third-party meshes and cleaned official plugins are reconstructed from original downloads or owned game files.

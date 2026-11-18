@@ -1,0 +1,26 @@
+{
+  "version": "2.0.2",
+  "status": "private candidate; publication held",
+  "updatedUTC": "2026-11-18T04:07:04.138178+00:00",
+  "enabledMods": 2023,
+  "profiles": [
+    "Origins Of Frost",
+    "Origins of Frost 21x9"
+  ],
+  "completedChecks": {
+    "materialGeneration": "PGPatcher2.4 full, zero errors",
+    "materialReconstruction": "318 DDS /43 source groups, winning bytes unchanged both profiles",
+    "terrain": "terrain only;19 outputs/20 selected",
+    "texgen": "zero missing tree models;HDGrass0/100/0",
+    "dyndolod": "20 worldspaces;all child processes exit0;output validation passed",
+    "protectedCharacterAssets": "16 winners and SHA256 unchanged both profiles",
+    "profilesAndTools": "synchronized; portable maintenance tools configured"
+  },
+  "pending": [
+    "11 navigation conflicts; draft remains outside runtime profiles",
+    "runtime tree/grass LOD transitions and save/load",
+    "fresh Wabbajack installation and verification",
+    "owned Nexus configuration update",
+    "installer/CDN and release publication"
+  ]
+}

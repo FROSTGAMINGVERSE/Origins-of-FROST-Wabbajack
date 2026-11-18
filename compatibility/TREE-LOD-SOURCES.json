@@ -1,0 +1,106 @@
+[
+  {
+    "name": "WardenWood",
+    "mod_id": "197013",
+    "file_id": "832033",
+    "archive": "WardenWood V1.5 197013 6 2026-11-04T13-49Z hfH9sgj0k.7z",
+    "sha256": "942a908dc087e64af1fc5a7fa6b3d743be69060697142c609ce0e966de0aecad",
+    "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/197013?tab=files&file_id=832033"
+  },
+  {
+    "name": "WardenWood LOD Resources",
+    "mod_id": "197013",
+    "file_id": "832038",
+    "archive": "WardenWood_V1.5_3D_LOD_Resources 197013 2 2026-11-04T13-55Z Ae46Wd8vW.7z",
+    "sha256": "7b8746c79004e1841f07467263c1b5533bd63634351458f4ae94035bd0b3b541",
+    "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/197013?tab=files&file_id=832038"
+  },
+  {
+    "name": "Ulvenwald Snow Logs FIX",
+    "mod_id": "198078",
+    "file_id": "832985",
+    "archive": "Ulvenwald Snow Logs FIX 198078 1 2026-11-05T22-31Z xDLPwUl17.7z",
+    "sha256": "f46b825e2327f649a6e92e6dd727fa7065436d88291a5a7849e1cc33290f50c9",
+    "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/198078?tab=files&file_id=832985"
+  },
+  {
+    "name": "Pine Branches Redone",
+    "mod_id": "45294",
+    "file_id": "334558",
+    "archive": "Pine Branches Redone 2K-45294-4-0-1669395213.7z",
+    "sha256": "81ab257792d80d88a54ff02dcdb049f2f93ad239f59cd76445a53ff1202aafc6",
+    "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/45294?tab=files&file_id=334558"
+  },
+  {
+    "name": "HD Vanilla Tree Bark",
+    "mod_id": "37890",
+    "file_id": "148511",
+    "archive": "ESRGAN TREE BARK-37890-1-0-1593749678.7z",
+    "sha256": "acca60b752c60ebc57453f6deb1a4a6ea267d9fbbba3155c5cef9e5d6e06d1f5",
+    "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/37890?tab=files&file_id=148511"
+  },
+  {
+    "name": "DynDOLOD",
+    "mod_id": "68518",
+    "file_id": "839738",
+    "archive": "DynDOLOD 3.00 68518 Alpha-220 2026-11-16T09-24Z OyYrP2yKF.7z",
+    "sha256": "62da224a20ebb734401bc3a5027e279551bb59cf4985ab127c0477446be4ec8b",
+    "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/68518?tab=files&file_id=839738"
+  },
+  {
+    "name": "DynDOLOD DLL NG",
+    "mod_id": "97720",
+    "file_id": "802882",
+    "archive": "DynDOLOD DLL NG and Scripts 3.00 97720 Alpha-43 2026-09-09T17-15Z 4t2yDc38N.7z",
+    "sha256": "aa8f266608cba0c1d3abbd85b3649f3395fde017cde53569b9dc9ba18b380e0b",
+    "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/97720?tab=files&file_id=802882"
+  },
+  {
+    "name": "PGPatcher",
+    "mod_id": "120946",
+    "file_id": "834440",
+    "archive": "PGPatcher 120946 2.4.0 2026-11-08T09-26Z 4t2yDuavQ.zip",
+    "sha256": "2c3141961e5c7d28367649185a5f48aa9d253f44caff3f9d769c4cd8a1956a58",
+    "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/120946?tab=files&file_id=834440"
+  },
+  {
+    "name": "WardenWood author DynDOLOD preset reference",
+    "mod_id": "197013",
+    "file_id": "832042",
+    "archive": "DynDOLOD_SSE_Stergio_PassThruMask.ini 197013 1 2026-11-04T14-02Z cE8hks2MA.7z",
+    "sha256": "24bdcaddf9918bfb8ca3ad01b61a2bdf65db7645986a4aa63fd6004732cc4b47",
+    "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/197013?tab=files&file_id=832042"
+  },
+  {
+    "name": "Forest Fragments 3.0 Main",
+    "mod_id": "113528",
+    "file_id": "835506",
+    "archive": "Forest Fragments - Forest Debris Expansion - 2K 113528 3.0.0.0 2026-11-09T19-58Z IoFlh9xKD.7z",
+    "sha256": "53237120583483bdc4f5e2fc5d3d859accc31cd627ed253de42be2eefb2bc784",
+    "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/113528?tab=files&file_id=835506"
+  },
+  {
+    "name": "Forest Fragments 3.0 Patches",
+    "mod_id": "113528",
+    "file_id": "835507",
+    "archive": "Forest Fragments - Patches Collection 113528 3.0.0.0 2026-11-09T19-58Z Ks18nTAa6.7z",
+    "sha256": "ded79d3238b2f7cd588635f8616ed1506fd94667122be66410fdfc1f8a26dd91",
+    "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/113528?tab=files&file_id=835507"
+  },
+  {
+    "name": "Obscure's College of Winterhold - Script Fix",
+    "mod_id": "62720",
+    "file_id": "260213",
+    "archive": "Obscure's College of Winterhold - Script Fix - cwhcm_setchangeonquestprog_03-62720-1-0-1643420271.zip",
+    "sha256": "caa0e4df29fc4a043c315e53114e1366b5c1b1fe046ddea1f16d70d08e92fc80",
+    "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/62720?tab=files&file_id=260213"
+  },
+  {
+    "name": "Ultimate Optimized Scripts Compilation",
+    "mod_id": "122999",
+    "file_id": "732690",
+    "archive": "Ultimate Optimized Scripts Compilation-122999-1-83-1773848722.7z",
+    "sha256": "57a489278ca3c36936ace1bc4d760bf7fffb69d2d1d54e010d6e615586b16824",
+    "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/122999?tab=files&file_id=732690"
+  }
+]
