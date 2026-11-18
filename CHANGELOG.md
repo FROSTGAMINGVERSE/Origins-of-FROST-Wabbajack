@@ -1,4 +1,4 @@
-## Unreleased — 2.0.2 Beta preparation (2026-11-18)
+## 2.0.2 Beta (2026-11-18)
 
 - Updated WardenWood to V1.5 and its matching author LOD resources; retained the current Ulvenwald main and record fixes, and added the author's snow-log fix.
 - Repaired the Sleeping Tree mesh alias, three WardenWood LOD checksum aliases, and a missing swordfern snow mesh used by BOS. Original source archives remain the installer dependencies.
@@ -11,8 +11,8 @@
 - Installed the published Obscure College corrupt-script fix and updated Ultimate Optimized Scripts Compilation to 1.83 with the matching USSEP AE/runtime options.
 - DynDOLOD Alpha 220 completed across 20 supported worldspaces with zero reported generation errors; native combined plugin checks exposed 11 navigation conflicts still requiring repair and gameplay review.
 - Restored original Lux 7.0 source provenance alongside the 7.1 update, recovered both deadlock-fix download IDs, excluded regenerable character shader/cell caches, and grouped 318 material textures by their original source for binary reconstruction. Both profiles retain identical winning texture bytes.
-- Fresh compilation and installation verification are in progress; this remains an unpublished candidate.
-- Public Nexus uploads, installer/CDN updates and final release metadata have not been published for this candidate.
+- Published the 2.45 GB Wabbajack installer and pinned the list-specific Nexus downloads for xLODGen, DynDOLOD, TexGen and BodySlide.
+- Verified each retained player file against the clean 2.0.2 reference and excluded 88 per-save test-state files.
 
 # Changelog
 

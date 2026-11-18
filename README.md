@@ -2,13 +2,13 @@
 
 A Nordic Skyrim modlist by **FROST FX**, built around Northern Roads, Ulvenwald and WardenWood, Bottled Shaders, BFCO combat and grounded movement.
 
-**Working candidate: the new installer is not published yet.** Native generation, runtime review and a fresh installation are separate checks. Their results will be recorded for this exact package before publication. Earlier installers and historical tests do not establish acceptance of this revision. See [release status](RELEASE-STATUS.md) and the [changelog](CHANGELOG.md).
+**[Download the Origins Of Frost 2.0.2 Wabbajack installer](https://build.wabbajack.org/authored_files/download/Origins%20Of%20Frost%202.0.2%20Beta.wabbajack_ef5f4bf0-5356-4766-82cc-5eee7e0966d0)** · 2.45 GB. The beta is available for community testing. See [release status](RELEASE-STATUS.md) and the [changelog](CHANGELOG.md).
 
 ## Requirements
 
 - Windows 10/11 x64 and Steam Skyrim Special Edition with the required owned Anniversary Upgrade creations downloaded in game.
 - A Nexus Mods account and Microsoft Visual C++ 2015â€“2022 Redistributable x64. Nexus Premium is optional; free downloads can require interaction.
-- SSD space for the installed list, source archives and installation workspace. Exact sizes accompany the validated installer.
+- Plan for about 500 GB of free SSD space across the installation and download folders. The list uses about 266 GB installed, and Wabbajack can reuse source archives you already downloaded.
 - Hardware requirements and sustained performance remain under testing; resolution and shader settings affect memory use and frame rate.
 
 The list uses an isolated **Skyrim 1.6.1170** runtime. Wabbajack reconstructs the supplied game files from owned sources. Do not manually downgrade Steam as an installation prerequisite. **Start a new game:** save compatibility is not established.
@@ -16,7 +16,7 @@ The list uses an isolated **Skyrim 1.6.1170** runtime. Wabbajack reconstructs th
 ## Installation
 
 1. Install Skyrim through Steam, run its launcher once and download the required owned Anniversary creations in game. Close Skyrim.
-2. Open the matching Origins Of Frost installer in [Wabbajack](https://www.wabbajack.org/).
+2. Get the 2.0.2 file from the [Wabbajack download page](https://build.wabbajack.org/authored_files/download/Origins%20Of%20Frost%202.0.2%20Beta.wabbajack_ef5f4bf0-5356-4766-82cc-5eee7e0966d0). Open [Wabbajack](https://www.wabbajack.org/), choose **Install from disk**, and select the downloaded `.wabbajack` file.
 3. Choose an empty installation folder outside Program Files, Steam and OneDrive. Choose a downloads folder with enough free space.
 4. Sign in to the requested download services and let installation finish. Resolve installation errors before launching.
 5. Open the installed `ModOrganizer.exe`, select a display profile and run **SKSE**. Root Builder manages the launch-time game-root files.
